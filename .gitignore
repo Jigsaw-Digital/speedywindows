@@ -1,0 +1,7 @@
+nbproject/
+/wp-content/uploads/
+/wp-content/cache/
+.DS_STORE
+.htaccess
+node_modules
+/wp-content/themes/*/inc/vendor

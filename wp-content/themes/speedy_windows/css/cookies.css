@@ -1,0 +1,212 @@
+.cc_banner-wrapper {
+    z-index: 999999999;
+    position: relative
+  }
+  
+  .cc_container .cc_btn {
+    cursor: pointer;
+    text-align: center;
+    font-size: .8em;
+    transition: font-size 200ms;
+    line-height: 1em
+  }
+  
+  .cc_container .cc_message {
+  position: relative;
+    font-size: .9em;
+    font-family:"usual",sans-serif;
+    transition: font-size 200ms;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1.5em
+  }
+  
+  .cc_container .cc_message a{
+      color: #fff;
+  }
+  
+  .cc_container .cc_message a:hover{
+      color: rgba(255,255,255, 0.7);
+  }
+  
+  .cc_container .cc_logo:hover,
+  .cc_container .cc_logo:active {
+    opacity: 1
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cc_container .cc_btn {
+      font-size: .8em;
+    }
+  
+  }
+  
+  @media screen and (max-width: 637px) {
+      .cc_container .cc_btn {
+        font-size: 1em;
+      }
+      .cc_container .cc_message {
+          font-size: 1em;
+      }
+  }
+  
+  
+  @media print {
+    .cc_banner-wrapper,
+    .cc_container {
+      display: none
+    }
+  }
+  
+  .cc_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 15px 15px 50px
+  }
+  
+  .cc_container .cc_btn {
+    padding: 8px 16px;
+    background-color: #98adaf;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    font-family:"usual",sans-serif;
+  }
+  
+  @media screen and (max-width: 500px) {
+  
+      .cc_container:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 130px;
+          height: 300px;
+          background-color: rgba(0,0,0,.1);
+          transform: rotate(-34deg);
+          transform-origin: left top;
+      }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .cc_container {
+      left: initial;
+      left: 20px;
+      bottom: 20px;
+      width: 320px;
+      padding-bottom: 67px
+    }
+    .cc_container .cc_btn {
+      right: 15px;
+      bottom: 17px;
+    }
+    .cc_container .cc_logo {
+      display: block;
+      position: absolute;
+      bottom: 8px;
+      left: calc(50% - 50px)
+    }
+  
+  }
+  
+  
+  .cc_container {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    font-family:"usual",sans-serif;
+    box-sizing: border-box;
+    /*border-radius: 3px;
+    -moz-border-radius: 2px;*/
+  }
+  
+  .cc_container::-moz-selection {
+    background: #01012d;
+    color: #fff;
+    text-shadow: none
+  }
+  
+  .cc_more_info {
+    color: inherit;
+  }
+  
+  .cc_container .cc_btn,
+  .cc_container .cc_btn:visited {
+    color: #01012d;
+    background-color: #fff;
+    transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    padding: 0 20px;
+    line-height: 45px;
+    height: 45px;
+    /*border-radius: 2px;
+    -webkit-border-radius: 2px;*/
+    text-decoration: none;
+  }
+  
+  .cc_container .cc_btn:hover,
+  .cc_container .cc_btn:active {
+    background-color: rgba(255,255,255, 0.8);
+  }
+  
+  .cc_container p a:hover,
+  .cc_container p a:active {
+  }
+  
+  @-webkit-keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+      transform: translateX(20px)
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+      transform: translateX(20px)
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0)
+    }
+  }
+  
+  .cc_container {
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+  }
+  
+  @media all and (max-width: 1024px) {
+    .cc_container { font-size: 16px; }
+  }
+  
+  @media all and (max-width: 640px) {
+    .cc_container { font-size: 14px; }
+  }  
