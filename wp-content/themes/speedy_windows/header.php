@@ -70,7 +70,7 @@
 
 </head>
 
-<body class="w-screen bg-primary font-roboto overflow-x-hidden">
+<body class="w-full bg-primary font-roboto overflow-x-hidden">
     <script>
     window.onload = function() {
 
@@ -80,16 +80,26 @@
         // document.getElementById('gallery-thumbs').style.height =
         //     `${galleryHeight}px`;
     }
+    window.onscroll = function() {
+
+        if (window.pageYOffset > 0) {
+            document.getElementById('nav').classList.add('fixed', 'top-0',
+                'w-11/12');
+        } else {
+            document.getElementById('nav').classList.remove('fixed',
+                'top-0', 'w-11/12');
+        }
+    }
     </script>
 
 
     <div class="relative w-11/12 mx-auto">
-        <div id="nav" class="w-full">
+        <div id="nav" class="z-50">
             <div
                 class="flex flex-col rounded-b-xl shadow-primary bg-white w-full">
                 <div class=" w-full flex justify-between px-6 py-4">
-                    <div class="w-2/12">
-                        <div class="w-10/12">
+                    <div class="w-2/4 lg:w-2/12">
+                        <div class="w-3/4 xsm:w-3/5 sm:w-2/4 lg:w-10/12">
                             <img loading="lazy"
                                 src="https://speedywindows.com/wp-content/uploads/2020/05/speedy-windows-logo-e1590743240729.png"
                                 alt="" title="speedy-windows-logo" height="auto"
@@ -103,7 +113,8 @@
                             TRADE WINDOW & DOOR SPECIALISTS
                         </h2>
                     </div>
-                    <div class="w-2/12 flex justify-center items-center">
+                    <div
+                        class="w-2/4 lg:w-2/12 flex justify-end lg:justify-center items-center">
                         <a href="#"
                             class="bg-primary_red px-4 py-3 rounded-3xl text-white uppercase whitespace-nowrap font-medium">
                             Call Now
@@ -123,7 +134,7 @@
                                 <a class="whitespace-nowrap"
                                     href="#">Windows</a>
                                 <ul
-                                    class="hidden group-hover:block absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
                                     <li class="">
                                         <a class="whitespace-nowrap"
                                             href="">Casement
@@ -140,7 +151,7 @@
                                 class="px-4 uppercase text-primary_grey group relative">
                                 <a class="whitespace-nowrap" href="#">Doors</a>
                                 <ul
-                                    class="hidden group-hover:block absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
                                     <li class="">
                                         <a class="whitespace-nowrap"
                                             href="">Composite
@@ -183,7 +194,7 @@
                                 <a class="whitespace-nowrap" href="#">Help &amp;
                                     Support</a>
                                 <ul
-                                    class="hidden group-hover:block absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
                                     <li class="">
                                         <a class="whitespace-nowrap"
                                             href="">FAQ</a>

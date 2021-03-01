@@ -8,6 +8,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer utilities {
   @responsive {
     .w-95-vw{
