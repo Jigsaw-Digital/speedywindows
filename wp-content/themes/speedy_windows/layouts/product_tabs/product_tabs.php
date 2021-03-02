@@ -49,7 +49,7 @@
                             <div
                                 class='w-full flex flex-col <?php echo $content_item['layout_direction']=="left"?"lg:flex-row":'lg:flex-row-reverse' ?> justify-evenly'>
                                 <div
-                                    class="w-1/2 flex items-start justify-around flex-col ">
+                                    class="w-full lg:w-1/2 flex items-start justify-around flex-col ">
                                     <?php foreach($content_item['text_content'] as $item) {?>
                                     <?php if($item['heading']) { ?>
                                     <div>
@@ -80,7 +80,7 @@
                                     <?php } ?>
                                 </div>
                                 <div
-                                    class="w-2/5 flex  <?php echo $content_item['layout_direction']=="left"?"justify-end":'justify-start' ?>">
+                                    class="w-full lg:w-2/5 flex justify-center  <?php echo $content_item['layout_direction']=="left"?"lg:justify-end":'lg:justify-start' ?>">
                                     <img class=""
                                         src="<?php echo $content_item['image']['url'] ?>"
                                         alt="" />
@@ -133,8 +133,6 @@
                                         <p class="text-sm">
                                             Our window is guaranteed to
                                             befaultless for 10 Years
-
-
                                         </p>
                                     </div>
                                 </div>
@@ -149,14 +147,11 @@
                                         <p
                                             class="text-2xl uppercase font-semibold">
                                             ENERGY EFFICIENT
-
                                         </p>
                                     </div>
                                     <div class="mt-4">
                                         <p class="text-sm">
                                             A Rated Windows as standard
-
-
                                         </p>
                                     </div>
                                 </div>
@@ -198,7 +193,7 @@
                             <div
                                 class='w-full flex flex-col lg:flex-row justify-evenly'>
                                 <div
-                                    class="w-1/2 flex items-start justify-around flex-col ">
+                                    class="w-full lg:w-1/2 flex items-start justify-around flex-col ">
                                     <?php if($product_detail['heading']) { ?>
                                     <div>
                                         <h2 class="text-2xl">
@@ -224,24 +219,28 @@
                                         </div>
                                     </div>
                                     <?php } ?>
-                                    <?php if($product_detail['color_images']) { ?>
-                                    <div class="w-full flex flex-wrap">
-                                        <?php foreach($product_detail['color_images'] as $image) { ?>
-                                        <div class="mx-2 my-2">
-                                            <img src="<?php echo $image['color_image']['url'] ?>"
-                                                alt="">
-                                        </div>
 
-                                        <?php } ?>
-                                    </div>
-                                    <?php } ?>
                                 </div>
-                                <div class="w-2/5 flex justify-end">
+                                <div
+                                    class="w-full lg:w-2/5 flex justify-center lg:justify-end">
                                     <img class=""
                                         src="<?php echo $product_detail['image']['url'] ?>"
                                         alt="" />
                                 </div>
                             </div>
+                            <?php if($product_detail['color_images']) { ?>
+                            <div class="w-full justify-evenly ml-4">
+                                <div
+                                    class="w-full justify-center lg:justify-start lg:w-2/4 flex flex-wrap mt-8">
+                                    <?php foreach($product_detail['color_images'] as $image) { ?>
+                                    <div class="mx-2 my-2">
+                                        <img src="<?php echo $image['color_image']['url'] ?>"
+                                            alt="">
+                                    </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                            <?php } ?>
                             <?php if($product_detail['bottom_border']=="show") {?>
                             <div
                                 class="border-b-4 border-dashed border-primary my-14">
@@ -485,7 +484,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
