@@ -1,6 +1,6 @@
 <div class="w-full  mt-6 bg-white py-8 rounded-3xl">
     <div
-        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
+        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
         <h3 class="text-center text-4xl md:text-5xl lg:text-6xl mb-8">Choose a
             Product</h3>
         <div class="flex flex-wrap justify-between">

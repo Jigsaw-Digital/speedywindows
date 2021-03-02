@@ -1,6 +1,6 @@
 <div class="w-full  mt-6 bg-white py-8 rounded-3xl">
     <div
-        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
+        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
         <div class="flex flex-col  overflow-hidden w-full">
             <div id=""
                 class="flex justify-start md:justify-between flex-col md:flex-row">

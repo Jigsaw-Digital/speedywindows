@@ -2,7 +2,7 @@
     class="bg-primary_black mt-8  rounded-t-3xl py-10 bg-white">
     <div class="w-full ">
         <div
-            class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
+            class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
             <div class="flex justify-between flex-wrap">
                 <div class="w-full sm:w-2/5 lg:w-22-5-percent mb-4">
                     <h6 class="text-2xl">Products</h6>

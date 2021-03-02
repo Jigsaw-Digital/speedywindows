@@ -1,6 +1,6 @@
 <div class="w-full  mt-6 bg-white py-8 rounded-3xl">
     <div
-        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
+        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl  ">
         <div class="flex flex-wrap lg:flex-nowrap justify-between">
             <div
                 class=" w-full sm:w-5/12 my-4 lg:my-0 lg:w-1/5 text-white bg-primary rounded-3xl py-10 text-2xl text-center uppercase">
