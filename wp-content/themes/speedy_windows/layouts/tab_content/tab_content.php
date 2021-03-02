@@ -38,7 +38,8 @@
                         </div>
                         <div class="mt-8 flex flex-wrap justify-between">
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -53,7 +54,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -68,7 +70,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -83,7 +86,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -210,7 +214,8 @@
                         </div>
                         <div class="mt-8 flex flex-wrap justify-between">
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -225,7 +230,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -240,7 +246,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>
@@ -255,7 +262,8 @@
                                 </div>
                             </div>
                             <div class="flex w-full lg:w-2/5 mb-10">
-                                <div class="text-primary_red text-5xl mr-4">
+                                <div data-aos="fade-down"
+                                    class="text-primary_red text-5xl mr-4">
                                     <i class="far fa-square"></i>
                                 </div>
                                 <div>

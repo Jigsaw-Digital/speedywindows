@@ -2,7 +2,7 @@
     <div
         class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
         <div
-            class="flex justify-center lg:rounded-3xl lg:h-96 overflow-y-hidden w-full">
+            class="flex justify-center lg:rounded-3xl lg:h-450-px overflow-y-hidden w-full">
             <div id="gallery-thumbs"
                 class="swiper-container gallery-thumbs w-1/4 hidden lg:block">
                 <div class="swiper-wrapper ">
@@ -73,30 +73,85 @@
             <div id="gallery-top"
                 class="w-full lg:w-3/4 swiper-container gallery-top z-0-important lg:transform lg:-translate-x-6 h-full">
                 <div class="swiper-wrapper h-full">
-                    <div class="swiper-slide h-full">
-                        <img class="w-full object-cover h-full"
-                            src="https://speedywindows.com/wp-content/uploads/2020/07/BSF70-004-1260x600.jpg"
-                            alt="" title="">
+                    <div class="swiper-slide relative">
+                        <div class="h-full w-full">
+                            <img class="w-full object-cover h-full"
+                                src="https://speedywindows.com/wp-content/uploads/2020/07/BSF70-004-1260x600.jpg"
+                                alt="" title="">
+                        </div>
+                        <div
+                            class="absolute top-0 w-full h-full hidden sm:flex flex-col items-end justify-between px-4 py-4 slider-text ">
+                            <div class="py-3 px-4 bg-primary_red rounded-3xl ">
+                                <a href="#">Get a Quote</a>
+                            </div>
+                            <div class="text-2xl bg-white py-2 px-2">
+                                Quick, Easy Ordering Service
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="w-full object-cover h-full"
-                            src="https://speedywindows.com/wp-content/uploads/2020/05/BSF70-007-scaled-1260x600.jpg"
-                            alt="" title="">
+                    <div class="swiper-slide relative">
+                        <div class="h-full w-full">
+                            <img class="w-full object-cover h-full"
+                                src="https://speedywindows.com/wp-content/uploads/2020/05/BSF70-007-scaled-1260x600.jpg"
+                                alt="" title="">
+                        </div>
+                        <div
+                            class="absolute top-0 w-full h-full hidden sm:flex flex-col items-end justify-between px-4 py-4 slider-text">
+                            <div class="py-3 px-4 bg-primary_red rounded-3xl ">
+                                <a href="#">Get a Quote</a>
+                            </div>
+                            <div class="text-2xl bg-white py-2 px-2">
+                                Quick, Easy Ordering Service
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="w-full object-cover h-full"
-                            src="https://speedywindows.com/wp-content/uploads/2020/05/Duraflex-Bifold-Barry-16Mar18-001-scaled-1260x600.jpg"
-                            alt="" title="">
+                    <div class="swiper-slide relative">
+                        <div class="h-full w-full">
+                            <img class="w-full object-cover h-full"
+                                src="https://speedywindows.com/wp-content/uploads/2020/05/Duraflex-Bifold-Barry-16Mar18-001-scaled-1260x600.jpg"
+                                alt="" title="">
+                        </div>
+                        <div
+                            class="absolute top-0 w-full h-full hidden sm:flex flex-col items-end justify-between px-4 py-4 slider-text">
+                            <div class="py-3 px-4 bg-primary_red rounded-3xl ">
+                                <a href="#">Get a Quote</a>
+                            </div>
+                            <div class="text-2xl bg-white py-2 px-2">
+                                Quick, Easy Ordering Service
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="w-full object-cover h-full"
-                            src="https://speedywindows.com/wp-content/uploads/2020/05/UPVc-Front-1260x600.jpg"
-                            alt="" title="">
+                    <div class="swiper-slide relative">
+                        <div class="h-full w-full">
+                            <img class="w-full object-cover h-full"
+                                src="https://speedywindows.com/wp-content/uploads/2020/05/UPVc-Front-1260x600.jpg"
+                                alt="" title="">
+                        </div>
+                        <div
+                            class="absolute top-0 w-full h-full hidden sm:flex flex-col items-end justify-between px-4 py-4 slider-text">
+                            <div class="py-3 px-4 bg-primary_red rounded-3xl ">
+                                <a href="#">Get a Quote</a>
+                            </div>
+                            <div class="text-2xl bg-white py-2 px-2">
+                                Quick, Easy Ordering Service
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="w-full object-cover h-full"
-                            src="https://speedywindows.com/wp-content/uploads/2020/05/Duraflex-Bifold-Barry-16Mar18-001-scaled-1260x600.jpg"
-                            alt="" title="">
+                    <div class="swiper-slide relative">
+                        <div class="h-full w-full">
+                            <img class="w-full object-cover h-full"
+                                src="https://speedywindows.com/wp-content/uploads/2020/05/Duraflex-Bifold-Barry-16Mar18-001-scaled-1260x600.jpg"
+                                alt="" title="">
+                        </div>
+                        <div
+                            class="absolute top-0 w-full h-full hidden sm:flex flex-col items-end justify-between px-4 py-4 slider-text">
+                            <div class="py-3 px-4 bg-primary_red rounded-3xl ">
+                                <a href="#">Get a Quote</a>
+                            </div>
+                            <div class="text-2xl bg-white py-2 px-2">
+                                Quick, Easy Ordering Service
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-button-next swiper-button-white"></div>
@@ -118,6 +173,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     // slidesPerColumnFill: 'row',
     // centeredSlides: true,
     slidesPerView: 4,
+
 
     // breakpoints: {
     //     1024: {

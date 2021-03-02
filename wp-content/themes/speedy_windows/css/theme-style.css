@@ -15,9 +15,40 @@
     .w-95-vw{
       width:95vw;
     }
+
+    .arrow-down-after::after {
+      content:'\f078';
+      color:"#d7d7d7";
+      font-weight:900;
+      font-family:'Font Awesome\ 5 Free';  
+    }
+
+    .h-450-px {
+      height:450px;
+    }
+
+    .swiper-slide-active .slider-text {
+      animation-name:slidertext;
+      animation-duration:400ms;
+      /* animation-timing-function:forwards; */
+      animation-delay:0.4s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      
+    }
+
+    /* .tab-grid-item {
+
+    } */
+
+    
     
     .col-count-2 {
       column-count: 2;
+    }
+
+    .show-items .items {
+      display:block;
     }
 
     .col-count-1 {
@@ -105,3 +136,12 @@
   border-bottom: 60px solid transparent; 
   border-left: 30px solid #558c4c;
 }
+
+@keyframes slidertext {
+      from{
+        opacity:0;
+      }
+      to{
+        opacity: 1;
+      }
+    }

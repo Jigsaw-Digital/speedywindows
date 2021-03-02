@@ -72,7 +72,36 @@
 
 <body class="w-full bg-primary font-roboto overflow-x-hidden">
     <script>
+    var toggleMobileNavItem = function(ele) {
+        let child = ele.children[0];
+        let parent = ele.parentElement.parentElement;
+
+        if (child.classList.contains('fa-plus')) {
+            parent.classList.add('show-items');
+            child.classList.remove('fa-plus');
+            child.classList.add('fa-times');
+        } else {
+            parent.classList.remove('show-items');
+            child.classList.remove('fa-times');
+            child.classList.add('fa-plus');
+        }
+
+    }
+
+    var mobileNavHandler = function() {
+        let mobileNavItems = document.getElementById('mobile-nav-items');
+        let showMobileNavItems = mobileNavItems.classList.contains("h-0");
+        if (showMobileNavItems) {
+            mobileNavItems.classList.remove('h-0');
+            mobileNavItems.classList.add('h-full');
+        } else {
+            mobileNavItems.classList.remove('h-full');
+            mobileNavItems.classList.add('h-0');
+        }
+    }
+
     window.onload = function() {
+
 
         // let galleryHeight = document.getElementById('gallery-top')
         //     .offsetHeight;
@@ -130,17 +159,19 @@
                                     aria-current="page">Home</a>
                             </li>
                             <li
-                                class="px-4 uppercase text-primary_grey group relative">
+                                class="px-4 uppercase text-primary_grey group relative arrow-down-after">
                                 <a class="whitespace-nowrap"
                                     href="#">Windows</a>
                                 <ul
-                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
-                                    <li class="">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white  py-8">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Casement
                                             Windows</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Sash
                                             Windows</a>
@@ -148,36 +179,42 @@
                                 </ul>
                             </li>
                             <li
-                                class="px-4 uppercase text-primary_grey group relative">
+                                class="px-4 uppercase text-primary_grey group relative arrow-down-after">
                                 <a class="whitespace-nowrap" href="#">Doors</a>
                                 <ul
-                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
-                                    <li class="">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white  py-8">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Composite
                                             Doors</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Aluminium
                                             Bi-Fold Door</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">PVCu
                                             Bi-Fold Door</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">French
                                             Door</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Patio
                                             Door</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">UPVC
                                             Door</a>
@@ -190,45 +227,53 @@
                                     Us</a>
                             </li>
                             <li
-                                class="px-4 uppercase text-primary_grey group relative">
+                                class="px-4 uppercase text-primary_grey group relative arrow-down-after">
                                 <a class="whitespace-nowrap" href="#">Help &amp;
                                     Support</a>
                                 <ul
-                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white px-8 py-8">
-                                    <li class="">
+                                    class="hidden group-hover:block z-50 absolute top-6  border-t-4 border-primary bg-white  py-8">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">FAQ</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Customer
                                             Services</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Delivery</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Orders
                                             &amp; Returns</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Terms
                                             &amp; Conditions</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Security
                                             &amp; Privacy</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Installation
                                             Guides</a>
                                     </li>
-                                    <li class="">
+                                    <li
+                                        class="px-8 py-2 hover:text-primary hover:bg-secondary">
                                         <a class="whitespace-nowrap"
                                             href="">Measuring
                                             Guides</a>
@@ -247,10 +292,191 @@
                         </ul>
                     </nav>
                     <div class="block lg:hidden">
-                        <div class="text-primary">
+                        <div id="mobile-nav-trigger"
+                            onclick="mobileNavHandler()" class="text-primary">
                             <i class="fas fa-bars text-primary"></i>
                         </div>
                     </div>
+
+
+                </div>
+                <div id="mobile-nav-items"
+                    class="h-0 overflow-y-hidden lg:hidden transition-all duration-200 ease-in">
+                    <ul class="py-4 px-4">
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Home</div>
+                            </div>
+                        </li>
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Windows</div>
+                                <div onclick="toggleMobileNavItem(this)">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <ul class="hidden items">
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Casement Windows</div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Sash Windows</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Doors</div>
+                                <div onclick="toggleMobileNavItem(this)">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <ul class="hidden items">
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Composite Doors</div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Aluminium Bi-Fold Door
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Pvcu Bi-fold Doors
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">french door
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">patio door
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">upvc door
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>About us</div>
+                            </div>
+                        </li>
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Help & Support</div>
+                                <div onclick="toggleMobileNavItem(this)">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <ul class="hidden items">
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">faq</div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Customer Service
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Delivery
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Order & Returns
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Terms & Conditions
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Securiy & Privacy
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Installation Guides
+                                        </div>
+                                    </div>
+                                </li>
+                                <li
+                                    class="text-primary_red hover:bg-secondary py-2 border-t border-b border-gray-100">
+                                    <div class="flex ">
+                                        <div class="ml-8">Measuring Guides
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Contact Us</div>
+                            </div>
+                        </li>
+                        <li
+                            class="uppercase text-primary_red group  border-b border-gray-100 ">
+                            <div
+                                class="flex justify-between group-hover:bg-secondary py-2 px-2">
+                                <div>Quotes</div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

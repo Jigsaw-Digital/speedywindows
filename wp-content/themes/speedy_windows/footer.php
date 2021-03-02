@@ -183,10 +183,12 @@
     crossorigin="anonymous"></script>
 
 
-<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
-<!-- <script>
-AOS.init();
-</script> -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({
+    once: true,
+});
+</script>
 <!-- <script
     src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js">
 </script> -->
