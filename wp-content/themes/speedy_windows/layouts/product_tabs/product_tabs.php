@@ -1,108 +1,99 @@
+<?php 
+ $tab1_name = get_sub_field('tab1_name');
+ $tab2_name = get_sub_field('tab2_name');
+ $tab3_name = get_sub_field('tab3_name');
+ $image_content = get_sub_field('image_content');
+ $main_heading = get_sub_field('main_heading');
+ $sub_heading = get_sub_field('sub_heading'); 
+ $product_detail = get_sub_field('product_detail');
+//  $text_content = get_sub_field('text_content');
+// $image = get_sub_field('image');
+// $layout_direction = get_sub_field('layout_direction');
+?>
+
+
 <div class="w-full  mt-6 bg-white py-8 rounded-3xl">
     <div
-        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
-        <div class="flex flex-col  overflow-hidden w-full">
+        class=" ctr md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
+        <div class="w-full flex flex-col items-center">
+            <h2 class="text-4xl text-primary"><?php echo $main_heading ?></h2>
+            <p class="text-2xl mt-4"><?php echo $sub_heading ?></p>
+        </div>
+        <div class="flex flex-col  overflow-hidden w-full mt-8">
             <div id=""
                 class="flex justify-start md:justify-between flex-col md:flex-row">
                 <div onclick="goToIndex(this, 0)"
                     class="w-4/5 md:w-30-percent text-xl text-center my-4 md:mx-4 uppercase shadow-secondary hover:bg-primary hover:border-primary cursor-pointer border-b-4 border-white active-tab">
                     <p class="py-4">
-                        How it Works?
+                        <?php echo $tab1_name ?>
                     </p>
                 </div>
                 <div onclick="goToIndex(this, 1)"
                     class="w-4/5 md:w-30-percent text-xl text-center my-4 md:mx-4 uppercase shadow-secondary hover:bg-primary hover:border-primary cursor-pointer border-b-4 border-white">
                     <p class="py-4">
-                        Why Shop With Us
+                        <?php echo $tab2_name ?>
                     </p>
                 </div>
                 <div onclick="goToIndex(this, 2)"
                     class="w-4/5 md:w-30-percent text-xl text-center my-4 md:mx-4 uppercase shadow-secondary hover:bg-primary hover:border-primary cursor-pointer border-b-4 border-white">
                     <p class="py-4">
-                        Customer Reviews
+                        <?php echo $tab3_name ?>
                     </p>
                 </div>
             </div>
-            <div id="" class="mt-8 tab-content">
+            <div id="" class="mt-10 tab-content">
                 <div class="swiper-wrapper h-full">
                     <div class="swiper-slide h-full flex flex-col">
-                        <div class="text-3xl font-bold">
-                            <p>
-                                How Speedy Windows Works?
-                            </p>
-                        </div>
-                        <div class="text-2xl mt-4">
-                            <p>
-                                Buying from us couldn't be easier
-                            </p>
-                        </div>
-                        <div class="mt-8 flex flex-wrap justify-between">
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
+                        <?php foreach($image_content as $content_item) { ?>
+                        <div class="w-full">
+                            <div
+                                class='w-full flex flex-col <?php echo $content_item['layout_direction']=="left"?"lg:flex-row":'lg:flex-row-reverse' ?> justify-evenly'>
+                                <div
+                                    class="w-1/2 flex items-start justify-around flex-col ">
+                                    <?php foreach($content_item['text_content'] as $item) {?>
+                                    <?php if($item['heading']) { ?>
+                                    <div>
+                                        <h2 class="text-2xl">
+                                            <?php echo $item['heading'] ?>
+                                        </h2>
+                                    </div>
+                                    <?php } ?>
+                                    <?php if($item['paragraph']) { ?>
+                                    <div>
+                                        <p class="text-lg mt-6">
+                                            <?php echo $item['paragraph'] ?>
+                                        </p>
+                                    </div>
+                                    <?php } ?>
+
+                                    <?php if($item['link']) { ?>
+                                    <div>
+                                        <div
+                                            class="mt-6 px-4 py-3 rounded-3xl bg-primary_red">
+                                            <a href="#">
+                                                <?php echo $item['link']['title'] ?>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <?php } ?>
+
+                                    <?php } ?>
                                 </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
+                                <div
+                                    class="w-2/5 flex  <?php echo $content_item['layout_direction']=="left"?"justify-end":'justify-start' ?>">
+                                    <img class=""
+                                        src="<?php echo $content_item['image']['url'] ?>"
+                                        alt="" />
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-10 px-10">
+                        <?php if($content_item['bottom_border']=="show") {?>
+                        <div
+                            class="border-b-4 border-dashed border-primary my-14">
+                        </div>
+                        <?php }?>
+                        <?php } ?>
+                        <div class="mt-16 px-10">
                             <div class="flex flex-wrap lg:justify-between">
                                 <div
                                     class="w-full mb-4 lg:mb-0 lg:w-30-percent">
@@ -181,19 +172,19 @@
                             <div
                                 class="flex flex-col lg:flex-row lg:justify-between  items-center">
                                 <div
-                                    class="text-white bg-primary w-full sm:w-80 lg:w-30-percent flex justify-center mb-3 py-3 uppercase text-2xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary">
+                                    class="text-white bg-primary w-full sm:w-80 lg:w-1/5 flex justify-center mb-3 py-3 uppercase text-xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary">
                                     <a class="" href="#">
                                         HOW TO MEASURE
                                     </a>
                                 </div>
                                 <div
-                                    class="text-white bg-primary_red w-full sm:w-80 lg:w-30-percent flex justify-center mb-3 py-3 uppercase text-2xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary_red">
+                                    class="text-white bg-primary_red w-full sm:w-80 lg:w-1/5 flex justify-center mb-3 py-3 uppercase text-xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary_red">
                                     <a class="" href="#">
                                         GET A QUOTE
                                     </a>
                                 </div>
                                 <div
-                                    class="text-white bg-primary w-full sm:w-80 lg:w-30-percent flex justify-center mb-3 py-3 uppercase text-2xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary">
+                                    class="text-white bg-primary w-full sm:w-80 lg:w-1/5 flex justify-center mb-3 py-3 uppercase text-xl rounded-3xl hover:bg-transparent hover:text-primary_red border border-primary">
                                     <a class="" href="#">
                                         INSTALLATION HELP
                                     </a>
@@ -202,82 +193,62 @@
                         </div>
                     </div>
                     <div class="swiper-slide h-full flex flex-col">
-                        <div class="text-3xl font-bold">
-                            <p>
-                                Why Shop with Us?
-                            </p>
+
+                        <div class="w-full">
+                            <div
+                                class='w-full flex flex-col lg:flex-row justify-evenly'>
+                                <div
+                                    class="w-1/2 flex items-start justify-around flex-col ">
+                                    <?php if($product_detail['heading']) { ?>
+                                    <div>
+                                        <h2 class="text-2xl">
+                                            <?php echo $product_detail['heading'] ?>
+                                        </h2>
+                                    </div>
+                                    <?php } ?>
+                                    <?php if($product_detail['paragraph']) { ?>
+                                    <div>
+                                        <p class="text-lg mt-6">
+                                            <?php echo $product_detail['paragraph'] ?>
+                                        </p>
+                                    </div>
+                                    <?php } ?>
+
+                                    <?php if($product_detail['link']) { ?>
+                                    <div>
+                                        <div
+                                            class="mt-6 px-4 py-3 rounded-3xl bg-primary_red">
+                                            <a href="#">
+                                                <?php echo $product_detail['link']['title'] ?>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <?php } ?>
+                                    <?php if($product_detail['color_images']) { ?>
+                                    <div class="w-full flex flex-wrap">
+                                        <?php foreach($product_detail['color_images'] as $image) { ?>
+                                        <div class="mx-2 my-2">
+                                            <img src="<?php echo $image['color_image']['url'] ?>"
+                                                alt="">
+                                        </div>
+
+                                        <?php } ?>
+                                    </div>
+                                    <?php } ?>
+                                </div>
+                                <div class="w-2/5 flex justify-end">
+                                    <img class=""
+                                        src="<?php echo $product_detail['image']['url'] ?>"
+                                        alt="" />
+                                </div>
+                            </div>
+                            <?php if($product_detail['bottom_border']=="show") {?>
+                            <div
+                                class="border-b-4 border-dashed border-primary my-14">
+                            </div>
+                            <?php }?>
                         </div>
-                        <div class="text-2xl mt-4">
-                            <p>
-                                Buying from us couldn't be easier
-                            </p>
-                        </div>
-                        <div class="mt-8 flex flex-wrap justify-between">
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex w-full lg:w-2/5 mb-10">
-                                <div data-aos="fade-down"
-                                    class="text-primary_red text-5xl mr-4">
-                                    <i class="far fa-square"></i>
-                                </div>
-                                <div>
-                                    <p class="text-primary text-3xl uppercase">
-                                        Choose a
-                                        product</p>
-                                    <p class="text-sm mt-2">Firstly choose from
-                                        our
-                                        wide range of
-                                        windows and door options.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="mt-10 px-10">
                             <div class="flex justify-between flex-wrap">
                                 <div

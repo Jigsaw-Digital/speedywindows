@@ -158,7 +158,7 @@
                                 <a class="whitespace-nowrap" href=""
                                     aria-current="page">Home</a>
                             </li>
-                            <li
+                            <!-- <li
                                 class="px-4 uppercase text-primary_grey group relative arrow-down-after">
                                 <a class="whitespace-nowrap"
                                     href="#">Windows</a>
@@ -288,7 +288,7 @@
                             <li
                                 class="px-4 uppercase text-primary_grey group relative">
                                 <a class="whitespace-nowrap" href="">Quotes</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                     <div class="block lg:hidden">
@@ -310,7 +310,7 @@
                                 <div>Home</div>
                             </div>
                         </li>
-                        <li
+                        <!-- <li
                             class="uppercase text-primary_red group  border-b border-gray-100 ">
                             <div
                                 class="flex justify-between group-hover:bg-secondary py-2 px-2">
@@ -475,7 +475,7 @@
                                 class="flex justify-between group-hover:bg-secondary py-2 px-2">
                                 <div>Quotes</div>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

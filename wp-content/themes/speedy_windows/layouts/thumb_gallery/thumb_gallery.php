@@ -157,6 +157,12 @@
                 <div class="swiper-button-next swiper-button-white"></div>
                 <div class="swiper-button-prev swiper-button-white"></div>
             </div>
+
+        </div>
+        <div class="w-full text-right mt-4 pr-8 font-light hidden sm:block">
+            <p>
+                *all prices unglazed and subject to VAT
+            </p>
         </div>
     </div>
 
