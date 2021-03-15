@@ -12,9 +12,9 @@ if(in_array('local', $domainArray)) {
 	define( 'DB_PASSWORD', '' );
 	define( 'DB_HOST', '127.0.0.1' );
 }elseif(in_array('app', $domainArray)) {
-	define( 'DB_NAME', '' );
-	define( 'DB_USER', '' );
-	define( 'DB_PASSWORD', '3?Nrlb59' );
+	define( 'DB_NAME', 'sw_dev' );
+	define( 'DB_USER', 'sw_dev' );
+	define( 'DB_PASSWORD', 'g5Up9v*1' );
 	define( 'DB_HOST', '127.0.0.1' );
 }
 
