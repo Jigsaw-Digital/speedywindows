@@ -1,0 +1,89 @@
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "";
+  display: none !important;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "";
+  display: none !important;
+}
+
+.list-type-disc {
+  list-style-type: disc;
+  margin-left: 16px;
+}
+
+.child-li-y-1 li {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.child-li-y-2 li {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+#product-slider-inner {
+  height: 100% !important;
+}
+
+.gfield {
+  width: 100%;
+}
+
+/* .gform_body {
+  color: #44703d;
+} */
+
+.gfield .ginput_container_text input {
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.gfield .ginput_container_phone input {
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.gfield .ginput_container_email input {
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.gform_body li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.gfield .gfield_select {
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.gfield .ginput_container_textarea textarea {
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.gform_footer .gform_button {
+  background: #44703d;
+  margin-top: 16px;
+  padding: 10px 20px;
+  color: white;
+  font: bold;
+  cursor: pointer;
+}
+
+.gform_footer .gform_button:hover {
+  background: #558c4c;
+}
+
+.flex-row-m {
+  flex-direction: row;
+}
+
+.flex-row-reverse-m {
+  flex-direction: row-reverse;
+}

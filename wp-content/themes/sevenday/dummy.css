@@ -1,0 +1,31 @@
+@import "node_modules/tailwindcss/base.css";
+
+@import "node_modules/tailwindcss/components.css";
+
+@import "node_modules/tailwindcss/utilities.css";
+
+@layer utilities {
+  @responsive {
+    .ctr {
+      @apply mr-auto ml-auto pl-4 pr-4;
+    }
+    .row {
+      @apply -mr-4 -ml-4;
+    }
+  }
+}
+
+@layer base {
+  @responsive {
+    @font-face {
+      font-family: Montserrat;
+      font-weight: 400;
+      src: url(Montserrat/Montserrat-Regular.ttf) format("ttf");
+    }
+    @font-face {
+      font-family: Montserrat;
+      font-weight: 700;
+      src: url(Montserrat/Montserrat-Bold.ttf) format("ttf");
+    }
+  }
+}

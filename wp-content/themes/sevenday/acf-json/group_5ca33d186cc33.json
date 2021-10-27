@@ -1,0 +1,133 @@
+{
+    "key": "group_5ca33d186cc33",
+    "title": "Event",
+    "fields": [
+        {
+            "key": "field_5ca3455fbee34",
+            "label": "Event Date",
+            "name": "event_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "l d F Y",
+            "return_format": "l d F Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_5ca33d2227e93",
+            "label": "Event Location",
+            "name": "event_location",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ca33d4b27e95",
+            "label": "Card Content",
+            "name": "card_content",
+            "type": "wysiwyg",
+            "instructions": "This is the teaser text shown on the extras page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ca33d8b27e98",
+            "label": "Link Type",
+            "name": "link_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "external": "External Link",
+                "permalink": "Post Link"
+            },
+            "default_value": [
+                "external"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ca33d3827e94",
+            "label": "Content",
+            "name": "content",
+            "type": "wysiwyg",
+            "instructions": "This text is used if you wish to have an individual page. (Your own event details\/description)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ca33d8b27e98",
+                        "operator": "==",
+                        "value": "permalink"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "events"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1554212157
+}

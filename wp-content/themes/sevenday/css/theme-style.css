@@ -1,0 +1,105 @@
+/* @import "../node_modules/tailwindcss/base.css";
+
+@import "../node_modules/tailwindcss/components.css";
+
+@import "../node_modules/tailwindcss/utilities.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .col-count-1 {
+      column-count: 1;
+    }
+    .col-count-2 {
+      column-count: 2;
+    }
+
+    .col-count-3 {
+      column-count: 3;
+    }
+
+    .col-count-4 {
+      column-count: 4;
+    }
+
+    .col-count-5 {
+      column-count: 5;
+    }
+
+    .ctr {
+      @apply mr-auto ml-auto;
+    }
+
+    .z-neg-10 {
+      z-index: -10 !important;
+    }
+
+    .z-neg-12 {
+      z-index: -12 !important;
+    }
+
+    .skew-image {
+      clip-path: polygon(0% 0%, 100% 0%, 92% 100%, 0% 100%);
+    }
+
+    .skew-tab {
+      clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    }
+
+    .active-tab {
+      @apply bg-secondary;
+    }
+
+    @variants hover, first, focus, active {
+    }
+    .accordion-content {
+      max-height: 0;
+      -webkit-transition: max-height 1s;
+      -o-transition: max-height 1s;
+      transition: max-height 1s;
+    }
+
+    .accordion input:checked ~ .accordion-content {
+      max-height: 100vh;
+    }
+
+    .accordion input:checked + label {
+      padding: 1.25rem;
+
+      background-color: #f8fafc;
+    }
+
+    .accordion label::after {
+      float: right;
+      right: 0;
+      top: 0;
+      display: block;
+      width: 1.5em;
+      height: 1.5em;
+      line-height: 1.5;
+      font-size: 1.25rem;
+      text-align: center;
+      -webkit-transition: all 0.35s;
+      -o-transition: all 0.35s;
+      transition: all 0.35s;
+    }
+
+    .accordion input[type="checkbox"] + label::after {
+      content: "+";
+      font-weight: bold;
+      border-width: 1px;
+      border-radius: 9999px;
+      background: #a8c4a4;
+      color: white;
+    }
+
+    .accordion input[type="checkbox"]:checked + label::after {
+      content: "-";
+      background: #a8c4a4;
+      color: #f8fafc;
+    }
+  }
+}

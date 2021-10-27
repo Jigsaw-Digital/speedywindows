@@ -1,0 +1,53 @@
+{
+  "key": "6099c0bb1e9b3",
+  "name": "text_content",
+  "label": "Text Content",
+  "display": "row",
+  "sub_fields": [
+    {
+      "key": "field_6099c09c442ef",
+      "label": "Title",
+      "name": "title",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": "",
+      "show_column": 0,
+      "show_column_sortable": 0,
+      "show_column_weight": 1000,
+      "allow_quickedit": 0,
+      "allow_bulkedit": 0
+    },
+    {
+      "key": "field_6099c0a3442f0",
+      "label": "Text Editor",
+      "name": "text_editor",
+      "type": "wysiwyg",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "tabs": "all",
+      "toolbar": "full",
+      "media_upload": 1,
+      "delay": 0
+    }
+  ],
+  "min": "",
+  "max": ""
+}

@@ -1,0 +1,40 @@
+{
+  "key": "60929d0662ffa",
+  "name": "two_links",
+  "label": "Two Links",
+  "display": "row",
+  "sub_fields": [
+    {
+      "key": "field_609bb2cbe5afb",
+      "label": "Link 1",
+      "name": "link_1",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_609bb2d4e5afc",
+      "label": "Link 2",
+      "name": "link_2",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    }
+  ],
+  "min": "",
+  "max": ""
+}
