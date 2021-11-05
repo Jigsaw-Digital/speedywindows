@@ -171,7 +171,7 @@ $menuitems = buildTree($menu_3);
                             <?php $url = $item->url;
                                     $children = $item->wpse_children;
                             ?>
-                            <li class="uppercase  group cursor-pointer">
+                            <li class="uppercase  group cursor-pointer" style="padding:39px 0px;">
                                 <a class="hover:text-secondary_hover relative z-20 font-bold"
                                     href="<?php echo $url ?>"><?php echo $title ?></a>
                                 <?php if ($children) { ?>
