@@ -1,0 +1,22 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/hero/acf.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1643204751318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643205033950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,19 +93,18 @@\n     {\n         \"key\": \"field_61f1504d08bca\",\n         \"label\": \"Link\",\n         \"name\": \"link\",\n-        \"type\": \"url\",\n+        \"type\": \"link\",\n         \"instructions\": \"\",\n         \"required\": 0,\n         \"conditional_logic\": 0,\n         \"wrapper\": {\n             \"width\": \"\",\n             \"class\": \"\",\n             \"id\": \"\"\n         },\n-        \"default_value\": \"\",\n-        \"placeholder\": \"\"\n+        \"return_format\": \"array\"\n     }\n ],\n   \"min\": \"\",\n   \"max\": \"\"\n"
+                }
+            ],
+            "date": 1643204751318,
+            "name": "Commit-0",
+            "content": "{\n  \"key\": \"609284f01ab9d\",\n  \"name\": \"hero\",\n  \"label\": \"Hero\",\n  \"display\": \"row\",\n  \"sub_fields\": [\n    {\n        \"key\": \"field_61f14fff08bc6\",\n        \"label\": \"Background Image\",\n        \"name\": \"background_image\",\n        \"type\": \"image\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"return_format\": \"array\",\n        \"preview_size\": \"thumbnail\",\n        \"library\": \"all\",\n        \"min_width\": \"\",\n        \"min_height\": \"\",\n        \"min_size\": \"\",\n        \"max_width\": \"\",\n        \"max_height\": \"\",\n        \"max_size\": \"\",\n        \"mime_types\": \"\"\n    },\n    {\n        \"key\": \"field_61f1501f08bc7\",\n        \"label\": \"Title\",\n        \"name\": \"title\",\n        \"type\": \"text\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"default_value\": \"\",\n        \"placeholder\": \"\",\n        \"prepend\": \"\",\n        \"append\": \"\",\n        \"maxlength\": \"\",\n        \"show_column\": 0,\n        \"show_column_sortable\": 0,\n        \"show_column_weight\": 1000,\n        \"allow_quickedit\": 0,\n        \"allow_bulkedit\": 0\n    },\n    {\n        \"key\": \"field_61f1502608bc8\",\n        \"label\": \"Sub Text\",\n        \"name\": \"sub_text\",\n        \"type\": \"wysiwyg\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"default_value\": \"\",\n        \"tabs\": \"all\",\n        \"toolbar\": \"full\",\n        \"media_upload\": 1,\n        \"delay\": 0\n    },\n    {\n        \"key\": \"field_61f1504308bc9\",\n        \"label\": \"Paragraph\",\n        \"name\": \"paragraph\",\n        \"type\": \"wysiwyg\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"default_value\": \"\",\n        \"tabs\": \"all\",\n        \"toolbar\": \"full\",\n        \"media_upload\": 1,\n        \"delay\": 0\n    },\n    {\n        \"key\": \"field_61f1504d08bca\",\n        \"label\": \"Link\",\n        \"name\": \"link\",\n        \"type\": \"url\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"default_value\": \"\",\n        \"placeholder\": \"\"\n    }\n],\n  \"min\": \"\",\n  \"max\": \"\"\n}\n"
+        }
+    ]
+}

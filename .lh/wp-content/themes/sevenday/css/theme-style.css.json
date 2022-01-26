@@ -1,0 +1,42 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/css/theme-style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1643199342977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643199368381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n     }\n \n     .active-tab {\n-      @apply bg-white;\n+      @apply bg-white text-primary;\n     }\n \n     @variants hover, first, focus, active {\n     }\n"
+                },
+                {
+                    "date": 1643199387467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n     }\n \n     .active-tab {\n-      @apply bg-white text-primary;\n+      @apply bg-white text-primary border border-gray-200;\n     }\n \n     @variants hover, first, focus, active {\n     }\n"
+                },
+                {
+                    "date": 1643199480567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n     }\n \n     .active-tab {\n-      @apply bg-white text-primary border border-gray-200;\n+      @apply bg-primary text-white ;\n     }\n \n     @variants hover, first, focus, active {\n     }\n"
+                },
+                {
+                    "date": 1643199695273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,4 +102,8 @@\n       color: #f8fafc;\n     }\n   }\n }\n+\n+.swiper-slide-next{\n+  display: none;\n+}\n"
+                },
+                {
+                    "date": 1643199711437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,6 +104,6 @@\n   }\n }\n \n .swiper-slide-next{\n-  display: none;\n+  display: hidden;\n }\n"
+                },
+                {
+                    "date": 1643199785040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,8 +102,4 @@\n       color: #f8fafc;\n     }\n   }\n }\n-\n-.swiper-slide-next{\n-  display: hidden;\n-}\n"
+                }
+            ],
+            "date": 1643199342977,
+            "name": "Commit-0",
+            "content": "/* @import \"../node_modules/tailwindcss/base.css\";\n\n@import \"../node_modules/tailwindcss/components.css\";\n\n@import \"../node_modules/tailwindcss/utilities.css\"; */\n\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer utilities {\n  @responsive {\n    .col-count-1 {\n      column-count: 1;\n    }\n    .col-count-2 {\n      column-count: 2;\n    }\n\n    .col-count-3 {\n      column-count: 3;\n    }\n\n    .col-count-4 {\n      column-count: 4;\n    }\n\n    .col-count-5 {\n      column-count: 5;\n    }\n\n    .ctr {\n      @apply mr-auto ml-auto;\n    }\n\n    .z-neg-10 {\n      z-index: -10 !important;\n    }\n\n    .z-neg-12 {\n      z-index: -12 !important;\n    }\n\n    .skew-image {\n      clip-path: polygon(0% 0%, 100% 0%, 92% 100%, 0% 100%);\n    }\n\n    .skew-tab {\n      clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n    }\n\n    .active-tab {\n      @apply bg-white;\n    }\n\n    @variants hover, first, focus, active {\n    }\n    .accordion-content {\n      max-height: 0;\n      -webkit-transition: max-height 1s;\n      -o-transition: max-height 1s;\n      transition: max-height 1s;\n    }\n\n    .accordion input:checked ~ .accordion-content {\n      max-height: 100vh;\n    }\n\n    .accordion input:checked + label {\n      padding: 1.25rem;\n\n      background-color: #f8fafc;\n    }\n\n    .accordion label::after {\n      float: right;\n      right: 0;\n      top: 0;\n      display: block;\n      width: 1.5em;\n      height: 1.5em;\n      line-height: 1.5;\n      font-size: 1.25rem;\n      text-align: center;\n      -webkit-transition: all 0.35s;\n      -o-transition: all 0.35s;\n      transition: all 0.35s;\n    }\n\n    .accordion input[type=\"checkbox\"] + label::after {\n      content: \"+\";\n      font-weight: bold;\n      border-width: 1px;\n      border-radius: 9999px;\n      background: #a8c4a4;\n      color: white;\n    }\n\n    .accordion input[type=\"checkbox\"]:checked + label::after {\n      content: \"-\";\n      background: #a8c4a4;\n      color: #f8fafc;\n    }\n  }\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,430 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/icons_banner/icons_banner.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 103,
+            "patches": [
+                {
+                    "date": 1643207025243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643207042873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n <div class=\"w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full\">\n         <div\n-            class=\"w-full flex mx-auto md:justify-center text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-auto text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207049260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n <div class=\"w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full\">\n         <div\n-            class=\"w-full flex mx-auto text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-1- text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207058396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n <div class=\"w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full\">\n         <div\n-            class=\"w-full flex mx-1- text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-auto md:justify-center text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207070556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n ?>\n \n <div class=\"w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full\">\n+        class=\"w-full container\">\n         <div\n-            class=\"w-full flex mx-auto md:justify-center text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-auto md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207080524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n ?>\n \n <div class=\"w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full container\">\n+        class=\"w-full container mx-auto\">\n         <div\n             class=\"w-full flex mx-auto md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n"
+                },
+                {
+                    "date": 1643207111639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n ?>\n \n <div class=\"w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full container mx-auto\">\n+        class=\"w-full container \">\n         <div\n-            class=\"w-full flex mx-auto md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207596896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n <div class=\"w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full container \">\n         <div\n-            class=\"w-full flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-5/6 flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207659981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n <?php \n     $icons = get_sub_field('icons');\n ?>\n \n-<div class=\"w-full bg-tertiary py-8\">\n+<div class=\"w-5/6 bg-tertiary py-8\">\n     <div\n         class=\"w-full container \">\n         <div\n-            class=\"w-5/6 flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-fullflex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207679838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n <?php \n     $icons = get_sub_field('icons');\n ?>\n \n-<div class=\"w-5/6 bg-tertiary py-8\">\n+<div class=\"w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full container \">\n+        class=\"w-5/6 container \">\n         <div\n             class=\"w-fullflex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n"
+                },
+                {
+                    "date": 1643207687089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n <div class=\"w-full bg-tertiary py-8\">\n     <div\n         class=\"w-5/6 container \">\n         <div\n-            class=\"w-fullflex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207746356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n <?php \n     $icons = get_sub_field('icons');\n+    $banner_title = get_sub_field('banner_title');\n+    $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n <div class=\"w-full bg-tertiary py-8\">\n     <div\n@@ -17,5 +19,8 @@\n             <?php }?>\n \n         </div>\n     </div>\n+    <div>\n+\n+    </div>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643207772039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,8 @@\n \n         </div>\n     </div>\n     <div>\n-\n+        <div><?php echo $banner_title ?></div>\n+        <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643207787753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div>\n+    <div class=\"w-1/6\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643207799507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     $banner_title = get_sub_field('banner_title');\n     $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n-<div class=\"w-full bg-tertiary py-8\">\n+<div class=\"flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-5/6 container \">\n         <div\n             class=\"w-full flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n"
+                },
+                {
+                    "date": 1643207823790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-5/6 container \">\n         <div\n-            class=\"w-full flex mx-32 md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643207853303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     $banner_title = get_sub_field('banner_title');\n     $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n-<div class=\"flex flex-wrap w-full bg-tertiary py-8\">\n+<div class=\"relative w-full bg-tertiary py-8\">\n     <div\n         class=\"w-5/6 container \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n@@ -19,9 +19,10 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6\">\n+    \n+</div>\n+<div class=\"absolute right-0\">\n         <div><?php echo $banner_title ?></div>\n\\ No newline at end of file\n         <div><?php echo $banner_paragraph ?></div>\n-    </div>\n-</div>\n+    </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643207860756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    \n-</div>\n-<div class=\"absolute right-0\">\n+    <div class=\"absolute right-0\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n\\ No newline at end of file\n-    </div>\n+    </div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207870132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"absolute right-0\">\n+    <div class=\"w-1/6 absolute right-0\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207879987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute right-0\">\n+    <div class=\"w-1/6 absolute top-0 right-0\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207904937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute top-0 right-0\">\n+    <div class=\"w-1/6 absolute -top-10 right-10\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207919614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-10 right-10\">\n+    <div class=\"w-1/6 absolute -top-10 right-10 bg-primary\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207925288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-10 right-10 bg-primary\">\n+    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207931290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary\">\n+    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary text-white\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207936796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary text-white\">\n+    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207942599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-10 right-10 bg-secondary text-white p-5\">\n+    <div class=\"w-1/6 absolute -top-20 right-10 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643207962129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-20 right-10 bg-secondary text-white p-5\">\n+    <div class=\"w-1/6 absolute -top-20 right-20 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n\\ No newline at end of file\n-</div>\n+</div>\n"
+                },
+                {
+                    "date": 1643208002929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-5/6 container \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n+            <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n@@ -23,5 +23,5 @@\n     <div class=\"w-1/6 absolute -top-20 right-20 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n-</div>\n\\ No newline at end of file\n+</div>\n"
+                },
+                {
+                    "date": 1643208013918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-5/6 container \">\n+        class=\"w-5/6 container  mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208019717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-5/6 container  mx-auto \">\n+        class=\"w-5/6 container  mx-20 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208029418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-5/6 container  mx-20 \">\n+        class=\"w-5/6 container  mx-32 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-20 right-20 bg-secondary text-white p-5\">\n+    <div class=\"w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208039642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n+    <div class=\"w-1/6 absolute -top-20 right-0 left-0 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208085032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-5/6 container  mx-32 \">\n+        class=\"w-full lg:w-5/6 container  mx-32 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-20 right-0 left-0 bg-secondary text-white p-5\">\n+    <div class=\"w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208100217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208140374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container  mx-32 \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-wrap xl:flex-nowrap\">\n+            class=\"w-full flex md:justify-left text-white xl:flex-wrap flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208150523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container  mx-32 \">\n         <div\n-            class=\"w-full flex md:justify-left text-white xl:flex-wrap flex-nowrap\">\n+            class=\"w-full flex md:justify-left text-white flex-col xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208180749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-5/6 container  mx-32 \">\n+        class=\"w-full lg:w-5/6 container lg:mx-32 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-nowrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208228190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container lg:mx-32 \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col xl:flex-nowrap\">\n+            class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208248167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block w-1/6 absolute -top-20 right-32 bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208273007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     $banner_title = get_sub_field('banner_title');\n     $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n-<div class=\"relative w-full bg-tertiary py-8\">\n+<div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container lg:mx-32 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n"
+                },
+                {
+                    "date": 1643208281311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208300831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208326500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-5/6 container lg:mx-32 \">\n+        class=\"w-full lg:w-5/6 container 2xl:mx-32 \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208350999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-5/6 container 2xl:mx-32 \">\n+        class=\"w-full lg:w-5/6 container mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208376087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208398260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208408696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208444338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 3xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208469769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n+            class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208478850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-5/6 container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n+            class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208504656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 3xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208539743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208546965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 2xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208585468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-5/6 container mx-auto \">\n+        class=\"w-full lg:w-4/6 2xl:w-5/6 container mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 2xl:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208605822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6 2xl:w-5/6 container mx-auto \">\n+        class=\"w-full lg:w-4/6 3xl:w-5/6 container mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 2xl:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 3xl:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208624259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6 3xl:w-5/6 container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col xl:flex-row\">\n+            class=\"w-full flex md:justify-left text-white flex-col lg::flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208639739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,11 @@\n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6 3xl:w-5/6 container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col lg::flex-row\">\n+            class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex lg:w-auto items-center mx-auto py-2\">\n+            <div class=\"flex lg:w-auto items-center lg:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643208645274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6 3xl:w-5/6 container mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex lg:w-auto items-center lg:mx-auto py-2\">\n+            <div class=\"flex lg:w-auto items-center xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643208655544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6 3xl:w-5/6 container mx-auto \">\n+        class=\"w-full lg:w-4/6 3xl:w-5/6 container lg:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center xl:mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208661384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6 3xl:w-5/6 container lg:mx-auto \">\n+        class=\"w-full lg:w-4/6 3xl:w-5/6 container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex lg:w-auto items-center xl:mx-auto py-2\">\n"
+                },
+                {
+                    "date": 1643208681182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6 3xl:w-5/6 container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex lg:w-auto items-center xl:mx-auto py-2\">\n+            <div class=\"flex flex-col xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643208686387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6 3xl:w-5/6 container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-col xl:mx-auto py-2\">\n+            <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643208694930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n-                    class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n+                    class=\"mx-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n             </div>\n             <?php }?>\n \n         </div>\n"
+                },
+                {
+                    "date": 1643208711793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6 3xl:w-5/6 container xl:mx-auto \">\n+        class=\"w-full lg:w-4/6 2xl:w-5/6 container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 3xl:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 2xl:w-1/6 bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208787929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ?>\n \n <div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6 2xl:w-5/6 container xl:mx-auto \">\n+        class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6 2xl:w-1/6 bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208803959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     $banner_title = get_sub_field('banner_title');\n     $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n-<div class=\"relative flex flex-wrap w-full bg-tertiary py-8\">\n+<div class=\"relative flex flex-row w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n"
+                },
+                {
+                    "date": 1643208817321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-2/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208831497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     $banner_title = get_sub_field('banner_title');\n     $banner_paragraph = get_sub_field('banner_paragraph');\n ?>\n \n-<div class=\"relative flex flex-row w-full bg-tertiary py-8\">\n+<div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n"
+                },
+                {
+                    "date": 1643208852760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col lg:flex-row\">\n+            class=\"w-full flex md:justify-left text-white flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208867241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-row xl:mx-auto py-2\">\n+            <div class=\"xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643208875779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,13 @@\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n             class=\"w-full flex md:justify-left text-white flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"xl:mx-auto py-2\">\n+            <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n-                    class=\"mx-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n+                    class=\"mx-4 my-autox whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n             </div>\n             <?php }?>\n \n         </div>\n"
+                },
+                {
+                    "date": 1643208888532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,15 +13,15 @@\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n-                    class=\"mx-4 my-autox whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n+                    class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n             </div>\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden xl:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208917056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 lg:mx-16 3xl:mx-32 lg:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 lg:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208927421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 lg:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 mx-16 g:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208933178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 mx-16 g:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-32 mx-16 lg:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643208954348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-wrap\">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208961776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex md:justify-center text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208970226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-center text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex justify-center  md:justify-left text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643208977731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex justify-center  md:justify-left text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex mx-auto  md:justify-left text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209000157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  md:justify-left text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center \">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209010474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center \">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center align-center \">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209020197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center align-center \">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center content-center \">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209025543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center content-center \">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209036932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container xl:mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap justify-center\">\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap>\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209043108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,11 @@\n ?>\n \n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n-        class=\"w-full lg:w-4/6  container xl:mx-auto \">\n+        class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap>\n+            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209053446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex md:justify-left text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row xl:mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209067667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n             class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-row xl:mx-auto py-2\">\n+            <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643209082640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap\">\n+            class=\"w-full flex mx-auto  text-white flex-col md:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209096534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  text-white flex-col md:flex-row\">\n+            class=\"w-full flex mx-auto  text-white flex-col xl:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209103957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  text-white flex-col xl:flex-row\">\n+            class=\"w-full flex mx-auto  text-white flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209123478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  text-white flex-wrap lg:flex-row\">\n+            class=\"w-full flex mx-auto  text-white flex-row md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n"
+                },
+                {
+                    "date": 1643209173325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n <div class=\"relative flex flex-row justify-between w-full bg-tertiary py-8\">\n     <div\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n-            class=\"w-full flex mx-auto  text-white flex-row md:flex-wrap lg:flex-row\">\n+            class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-32 mx-16 lg:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-64 lg:-mt-32 mx-16 lg:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643209418064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-64 lg:-mt-32 mx-16 lg:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"hidden lg:block -mt-64 xl:-mt-32 mx-16 lg:w-2/6 2xl:w-1/6  bg-secondary text-white p-5\">\n         <div><?php echo $banner_title ?></div>\n         <div><?php echo $banner_paragraph ?></div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643209491046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"hidden lg:block -mt-64 xl:-mt-32 mx-16 lg:w-2/6 2xl:w-1/6  bg-secondary text-white p-5\">\n-        <div><?php echo $banner_title ?></div>\n-        <div><?php echo $banner_paragraph ?></div>\n+    <div class=\"-mt-64 xl:-mt-32 \">\n+        <div class=\"hidden lg:block mx-16 lg:w-2/6 2xl:w-1/6  bg-secondary text-white p-5\">\n+            <div><?php echo $banner_title ?></div>\n+            <div><?php echo $banner_paragraph ?></div>\n+        </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643209503483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"-mt-64 xl:-mt-32 \">\n-        <div class=\"hidden lg:block mx-16 lg:w-2/6 2xl:w-1/6  bg-secondary text-white p-5\">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-64 xl:-mt-32 \">\n+        <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643209539199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-64 xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209585931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-40 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209591092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-40 \">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-64 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209607248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-64 \">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-64 2xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209632413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-64 2xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209643855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 2xl:w-1/6 -mt-40 xl:-mt-32 \">\n+    <div class=\"lg:w-2/6  -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209734885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6  -mt-40 xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n             <div><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643209771940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n     </div>\n     <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n-            <div><?php echo $banner_title ?></div>\n+            <div class=\"text-2xl\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643209778620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n     </div>\n     <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n-            <div class=\"text-2xl\"><?php echo $banner_title ?></div>\n+            <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n </div>\n"
+                }
+            ],
+            "date": 1643207025243,
+            "name": "Commit-0",
+            "content": "<?php \n    $icons = get_sub_field('icons');\n?>\n\n<div class=\"w-full bg-tertiary py-8\">\n    <div\n        class=\"w-full\">\n        <div\n            class=\"w-full flex mx-auto md:justify-center text-white flex-wrap xl:flex-nowrap\">\n            <?php foreach($icons as $icon) {?>\n            <div class=\"flex lg:w-auto items-center mx-4 py-2\">\n                <span class=\"text-white text-4xl\"><i\n                        class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                <span\n                    class=\"ml-4 whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n            </div>\n            <?php }?>\n\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}

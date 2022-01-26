@@ -163,7 +163,7 @@ function navToggle() {
     <div class="relative bg-white z-0">
         <div id="nav" class="z-50 shadow-nav mr-2">
             <div
-                class="text-primary  bg-white w-full transition-all duration-200 ease-in">
+                class="text-black  bg-white w-full transition-all duration-200 ease-in">
                 <div id="nav_padding"
                     class="w-full flex justify-between px-6 py-1 ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl items-center">
                     <div id="logo"
@@ -174,7 +174,7 @@ function navToggle() {
                                     src="<?php echo bloginfo('template_url') ?>/assets/img/speedy-windows-logo.png"
                                     alt="" title="speedy-windows-logo"
                                     height="auto" width="auto"
-                                    class="w-full object-cover transition-all duration-200 ease-in py-4">
+                                    class="w-1/2 lg:w-full object-cover transition-all duration-200 ease-in py-4">
                             </a>
                         </div>
                     </div>
@@ -191,7 +191,7 @@ function navToggle() {
                                 <?php if ($children) { ?>
 
                                 <div
-                                    class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-0 capitalize">
+                                    class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize">
                                     <div class="w-full bg-gray-200 py-8 ">
                                         <div class="ctr xl:max-w-screen-xl">
                                             <div
@@ -267,15 +267,14 @@ function navToggle() {
                                 </div>
                             </li> -->
                             <?php } ?>
-                            <a class="flex flex-row my-auto hover:text-primary" href="/contact-us/">
-                            <i class="mt-1 fa fa-phone "></i>
-                            <p class="mx-3 font-bold"> GET IN TOUCH </p>
-                        </a>
+                            <a class="flex flex-row my-auto bg-primary text-white border-primary hover:bg-white hover:text-primary p-4" href="/contact-us/">
+                                <p class="mx-3 font-bold"> GET STARTED </p>
+                            </a>
                         </ul>
                         
                     </div>
                     <div class="w-1/2 my-auto block md:hidden " >  
-                        <div class="flex flex-row float-right  mx-5">
+                        <div class="flex flex-row float-right">
                             <a href="tel:01604 791 791" class="text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mx-2"><i class=" fas fa-phone "></i></a>
                             <button id="menuBtn" class="w-1/2 hamburger focus:outline-none my-auto mx-2 " type="button" onclick="navToggle();">
                                 <span class="hamburger__top-bun"></span><span class="hamburger__middle-bun"></span><span class="hamburger__bottom-bun"></span>

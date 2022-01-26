@@ -11,7 +11,7 @@
                 class="md:skew-tab md:py-2 text-center -mb-4 md:mb-0 border-t-2 border-white md:border-t-0 first:border-t-0 shadow-nav md:shadow-none">
                 <div id="tab-selector"
                     onclick="goToIndex(this, <?php echo $key ?>)"
-                    class="bg-primary_grey px-8 py-4 md:mr-1 hover:bg-secondary_hover cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
+                    class="bg-primary_grey px-8 py-4 md:mr-1 hover:bg-white hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
                     <?php echo $tab['tab_title']?></div>
             </div>
             <?php }?>
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <div
-                                class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0">
+                                class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 bg-white z-10">
                                 <h2 class="text-3xl font-bold text-secondary">
                                     <?php echo $contentItem['content_title'] ?>
                                 </h2>
@@ -107,7 +107,7 @@
                                 <div class="mt-8 flex flex-wrap text-white">
                                     <?php foreach($contentItem['content_links'] as $link) {?>
                                     <a href="<?php echo $link['content_link']['url'] ?>"
-                                        class="my-1 uppercase mr-1 py-2 px-2 bg-secondary hover:bg-secondary_hover hover:text-secondary">
+                                        class="my-1 uppercase mr-1 py-2 px-2 bg-primary text-white border-primary">
                                         <?php echo $link['content_link']['title'] ?>
                                     </a>
                                     <?php }?>

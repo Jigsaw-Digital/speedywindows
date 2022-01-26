@@ -1,0 +1,18 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/posts/posts.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1643198785059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1643198785059,
+            "name": "Commit-0",
+            "content": "<?php \n$image = get_sub_field('image');\n$main_heading = get_sub_field('main_heading');\n$paragraphs = get_sub_field('paragraphs');\n$posts_heading = get_sub_field('posts_heading');\n$posts = get_sub_field('posts');\n?>\n\n<div class=\"bg-grey-300 mt-10 sm:mt-14 md:mt-16 w-full \">\n    <div\n        class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  py-20 \">\n        <div class=\"w-full text-white\">\n            <div class=\"w-full flex justify-center\">\n                <img src=\"<?php echo $image['url'] ?>\" alt=\"\">\n            </div>\n            <div\n                class=\"w-[80%] mx-auto w-full flex flex-col items-center justify-center mt-4 text-center\">\n                <h4 class=\"text-2xl font-bold\">\n                    <?php echo $main_heading ?>\n                </h4>\n                <?php foreach($paragraphs as $paragraph) {?>\n                <p class=\"mt-4\">\n                    <?php echo $paragraph['paragraph'] ?>\n                </p>\n                <?php }?>\n            </div>\n            <div class=\"mt-16 text-center\">\n                <h4 class=\"text-3xl text-white font-bold\">\n                    <?php echo $posts_heading ?>\n                </h4>\n            </div>\n            <div class=\"mt-5 flex flex-wrap justify-between\">\n                <?php foreach($posts as $post ) {?>\n                <div class=\"w-full sm:w-[45%] lg:w-[30%] my-8 bg-white\">\n                    <div class=\"w-full text-primary\">\n                        <a href=\"<?php echo $post['post_link']['url'] ?>\">\n                            <img class=\"w-full object-cover\"\n                                src=\"<?php echo $post['post_image']['url'] ?>\"\n                                alt=\"\">\n                        </a>\n                    </div>\n                    <div class=\"w-full mt-4 px-4\">\n                        <h6 class=\"text-2xl font-bold hover:underline text-primary\">\n                            <a href=\"<?php echo $post['post_link']['url'] ?>\">\n                                <?php echo $post['post_title'] ?>\n                            </a>\n                            <!-- Will double glazing reduce noise from outside? -->\n                        </h6>\n                    </div>\n                    <div class=\"w-full mt-4 px-4\">\n                        <div class=\"w-full flex text-sm justify-between text-primary\">\n                            <p>\n                                <?php echo $post['post_date'] ?>\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"w-full px-4 mt-4 mb-4\">\n                        <p class=\"hover:underline text-primary\">\n                            <a href=\"<?php echo $post['post_link']['url'] ?>\">\n                                <?php echo $post['post_paragraph'] ?>\n                            </a>\n\n                        </p>\n                    </div>\n\n                </div>\n                <?php }?>\n            </div>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}

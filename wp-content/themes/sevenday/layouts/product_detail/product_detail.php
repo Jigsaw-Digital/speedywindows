@@ -52,7 +52,7 @@ $product_links = get_sub_field('product_links');
                 <div class="mt-8 flex text-white">
                     <?php foreach($product_links as $link) {?>
                     <a href="<?php echo $link['product_link']['url'] ?>"
-                        class="my-3 uppercase mr-1 py-2 px-2 bg-secondary hover:bg-secondary_hover hover:text-secondary">
+                        class="my-3 uppercase mr-1 py-2 px-2 border border-secondary bg-white text-secondary hover:bg-secondary  hover:text-white ">
                         <?php echo $link['product_link']['title'] ?>
                     </a>
                     <?php }?>

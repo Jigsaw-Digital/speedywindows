@@ -1,0 +1,26 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/icons_banner/acf.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1643207334682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643207422381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-  \"key\": \"6092a1b26b3a0\",\n+  \"key\": \"61f15af7b4095\",\n   \"name\": \"icons_banner\",\n   \"label\": \"Icons Banner\",\n   \"display\": \"row\",\n   \"sub_fields\": [\n"
+                },
+                {
+                    "date": 1643207513913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,51 @@\n                 \"append\": \"\",\n                 \"maxlength\": \"\"\n             }\n         ]\n+    },\n+    {\n+        \"key\": \"field_61f159e260982\",\n+        \"label\": \"Banner Title\",\n+        \"name\": \"banner_title\",\n+        \"type\": \"text\",\n+        \"instructions\": \"\",\n+        \"required\": 0,\n+        \"conditional_logic\": 0,\n+        \"wrapper\": {\n+            \"width\": \"\",\n+            \"class\": \"\",\n+            \"id\": \"\"\n+        },\n+        \"default_value\": \"\",\n+        \"placeholder\": \"\",\n+        \"prepend\": \"\",\n+        \"append\": \"\",\n+        \"maxlength\": \"\",\n+        \"show_column\": 0,\n+        \"show_column_sortable\": 0,\n+        \"show_column_weight\": 1000,\n+        \"allow_quickedit\": 0,\n+        \"allow_bulkedit\": 0\n+    },\n+    {\n+        \"key\": \"field_61f15a0660983\",\n+        \"label\": \"Banner Paragraph\",\n+        \"name\": \"banner_paragraph\",\n+        \"type\": \"wysiwyg\",\n+        \"instructions\": \"\",\n+        \"required\": 0,\n+        \"conditional_logic\": 0,\n+        \"wrapper\": {\n+            \"width\": \"\",\n+            \"class\": \"\",\n+            \"id\": \"\"\n+        },\n+        \"default_value\": \"\",\n+        \"tabs\": \"all\",\n+        \"toolbar\": \"full\",\n+        \"media_upload\": 1,\n+        \"delay\": 0\n     }\n ],\n   \"min\": \"\",\n   \"max\": \"\"\n"
+                }
+            ],
+            "date": 1643207334682,
+            "name": "Commit-0",
+            "content": "{\n  \"key\": \"6092a1b26b3a0\",\n  \"name\": \"icons_banner\",\n  \"label\": \"Icons Banner\",\n  \"display\": \"row\",\n  \"sub_fields\": [\n    {\n        \"key\": \"field_609bb4e362d34\",\n        \"label\": \"Icons\",\n        \"name\": \"icons\",\n        \"type\": \"repeater\",\n        \"instructions\": \"\",\n        \"required\": 0,\n        \"conditional_logic\": 0,\n        \"wrapper\": {\n            \"width\": \"\",\n            \"class\": \"\",\n            \"id\": \"\"\n        },\n        \"collapsed\": \"\",\n        \"min\": 0,\n        \"max\": 0,\n        \"layout\": \"table\",\n        \"button_label\": \"\",\n        \"sub_fields\": [\n            {\n                \"key\": \"field_609bb4fe62d35\",\n                \"label\": \"Icon\",\n                \"name\": \"icon\",\n                \"type\": \"select\",\n                \"instructions\": \"\",\n                \"required\": 0,\n                \"conditional_logic\": 0,\n                \"wrapper\": {\n                    \"width\": \"\",\n                    \"class\": \"\",\n                    \"id\": \"\"\n                },\n                \"choices\": {\n                    \"desktop\": \"desktop\",\n                    \"truck-loading\": \"truck-loading\",\n                    \"clipboard\": \"clipboard\",\n                    \"dumpster\": \"dumpster\",\n                    \"headset\": \"headset\",\n                    \"recycle\": \"recycle\",\n                    \"truck\": \"truck\"\n                },\n                \"default_value\": [],\n                \"allow_null\": 0,\n                \"multiple\": 0,\n                \"ui\": 0,\n                \"return_format\": \"value\",\n                \"ajax\": 0,\n                \"placeholder\": \"\"\n            },\n            {\n                \"key\": \"field_609bb54d62d36\",\n                \"label\": \"Text\",\n                \"name\": \"text\",\n                \"type\": \"text\",\n                \"instructions\": \"\",\n                \"required\": 0,\n                \"conditional_logic\": 0,\n                \"wrapper\": {\n                    \"width\": \"\",\n                    \"class\": \"\",\n                    \"id\": \"\"\n                },\n                \"default_value\": \"\",\n                \"placeholder\": \"\",\n                \"prepend\": \"\",\n                \"append\": \"\",\n                \"maxlength\": \"\"\n            }\n        ]\n    }\n],\n  \"min\": \"\",\n  \"max\": \"\"\n}\n"
+        }
+    ]
+}

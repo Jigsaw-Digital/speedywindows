@@ -12,15 +12,16 @@ $product_showcase = get_sub_field('product_showcase');
                 <img src="<?php echo $product['image']['url'] ?>" alt="">
             </div>
             <div class="w-full lg:w-[49%] lg:px-10 my-4 lg:my-0 ">
-                <div class="lg:px-4 py-2">
-                    <a class="bg-primary px-4 py-2 rounded-2xl text-secondary font-bold <?php echo $product['direction'] =='row' ? '' : 'lg:float-right'  ?>"
-                        href=""><?php echo $product['link']['title'] ?></a>
-                </div>
+                
                 <div>
                     <p
                         class=" lg:px-4 py-2 <?php echo $product['direction'] =='row' ? 'lg:text-left' : 'lg:text-right'  ?> clear-both">
                         <?php echo $product['description'] ?>
                     </p>
+                </div>
+                <div class="lg:px-4 py-2">
+                    <a class="bg-white px-4 py-2 rounded-2xl text-primary hover:bg-primary hover:text-white border border-primary font-bold <?php echo $product['direction'] =='row' ? '' : 'lg:float-right'  ?>"
+                        href="<?php echo $product['link']['url'] ?>"><?php echo $product['link']['title'] ?></a>
                 </div>
             </div>
         </div>

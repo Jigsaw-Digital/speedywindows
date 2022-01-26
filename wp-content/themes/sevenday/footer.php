@@ -1,5 +1,5 @@
 <footer role="contentinfo" class="w-full">
-    <div class="w-full ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+    <div class="w-full ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
         <div
             class="w-full flex justify-start md:justify-start flex-wrap md:flex-nowrap">
             <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
@@ -29,19 +29,19 @@
             </div>
         </div>
     </div>
-    <div class="w-full bg-[#3F6938] py-10 text-white">
+    <div class="w-full bg-gray-200 py-10 text-primary">
         <div class="w-full ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl">
             <div class="w-full flex flex-wrap md:flex-nowrap">
                 <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
                     <h2 class="text-xl font-bold px-4">Trade Support</h2>
-                    <div class="mt-2 text-white px-4">
-                        <div class="my-1 hover:text-secondary_hover">
+                    <div class="mt-2 text-black px-4">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/depot-services/">
                                 Depot Services
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/marketing-support">
                                 Marketing Support
@@ -51,59 +51,59 @@
                 </div>
                 <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
                     <h2 class="text-xl font-bold px-4">Useful Links</h2>
-                    <div class="mt-2 text-white px-4">
-                        <div class="my-1 hover:text-secondary_hover">
+                    <div class="mt-2 text-black px-4">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/customer-services">Customer
                                 Services
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/security-privacy">Security
                                 & Privacy
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/terms-conditions">Terms
                                 & Conditions
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/orders-returns">Orders
                                 & Returns</a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/delivery">Delivery</a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a href="<?php echo bloginfo('url') ?>/faq">FAQ</a>
                         </div>
                     </div>
                 </div>
                 <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
                     <h2 class="text-xl font-bold px-4">Products</h2>
-                    <div class="mt-2 text-white px-4">
-                        <div class="my-1 hover:text-secondary_hover">
+                    <div class="mt-2 text-black px-4">
+                        <div class="my-1 hover:text-primary">
                             <a href="<?php echo bloginfo('url') ?>/windows">
                                 Windows
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a href="<?php echo bloginfo('url') ?>/doors">
                                 Doors
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/conservatories-roofs">
                                 Conservatories & Roofs
                             </a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/other-products">
                                 Other Products
@@ -128,16 +128,16 @@
                 </div>
                 <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
                     <h2 class="text-xl font-bold px-4">Contact</h2>
-                    <div class="mt-2 text-white px-4">
-                        <div class="my-1 hover:text-secondary_hover">
+                    <div class="mt-2 text-black px-4">
+                        <div class="my-1 hover:text-primary">
                             <a href="<?php echo bloginfo('url') ?>/contact-us">Contact
                                 Us</a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/depots">Depots</a>
                         </div>
-                        <div class="my-1 hover:text-secondary_hover">
+                        <div class="my-1 hover:text-primary">
                             <a
                                 href="<?php echo bloginfo('url') ?>/careers">Careers</a>
                         </div>

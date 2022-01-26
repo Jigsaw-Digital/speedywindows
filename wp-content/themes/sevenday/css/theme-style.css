@@ -50,7 +50,7 @@
     }
 
     .active-tab {
-      @apply bg-secondary;
+      @apply bg-primary text-white ;
     }
 
     @variants hover, first, focus, active {

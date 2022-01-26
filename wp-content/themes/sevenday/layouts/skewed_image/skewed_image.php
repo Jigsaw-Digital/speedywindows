@@ -24,7 +24,7 @@ $paragraphs = get_sub_field('paragraphs');
             <div class="lg:px-10 xl:px-24 2xl:px-32">
                 <div class="">
                     <p
-                        class="uppercase py-2 px-4 bg-tertiary inline rounded-3xl text-secondary font-bold ">
+                        class="uppercase py-2 px-4 bg-tertiary inline rounded-3xl text-white font-bold ">
                         <?php echo $top_title ?>
                     </p>
                 </div>

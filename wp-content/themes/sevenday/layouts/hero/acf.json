@@ -1,0 +1,111 @@
+{
+  "key": "609284f01ab9d",
+  "name": "hero",
+  "label": "Hero",
+  "display": "row",
+  "sub_fields": [
+    {
+        "key": "field_61f14fff08bc6",
+        "label": "Background Image",
+        "name": "background_image",
+        "type": "image",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+        },
+        "return_format": "array",
+        "preview_size": "thumbnail",
+        "library": "all",
+        "min_width": "",
+        "min_height": "",
+        "min_size": "",
+        "max_width": "",
+        "max_height": "",
+        "max_size": "",
+        "mime_types": ""
+    },
+    {
+        "key": "field_61f1501f08bc7",
+        "label": "Title",
+        "name": "title",
+        "type": "text",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": "",
+        "show_column": 0,
+        "show_column_sortable": 0,
+        "show_column_weight": 1000,
+        "allow_quickedit": 0,
+        "allow_bulkedit": 0
+    },
+    {
+        "key": "field_61f1502608bc8",
+        "label": "Sub Text",
+        "name": "sub_text",
+        "type": "wysiwyg",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+        },
+        "default_value": "",
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 0
+    },
+    {
+        "key": "field_61f1504308bc9",
+        "label": "Paragraph",
+        "name": "paragraph",
+        "type": "wysiwyg",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+        },
+        "default_value": "",
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 0
+    },
+    {
+        "key": "field_61f1504d08bca",
+        "label": "Link",
+        "name": "link",
+        "type": "link",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+        },
+        "return_format": "array"
+    }
+],
+  "min": "",
+  "max": ""
+}

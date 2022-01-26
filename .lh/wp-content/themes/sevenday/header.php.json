@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 109,
+            "activePatchIndex": 115,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -444,6 +444,30 @@
                 {
                     "date": 1643198530821,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n                                 <?php if ($children) { ?>\n \n                                 <div\n                                     class=\"absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-0 capitalize\">\n-                                    <div class=\"w-full bg-gray-200 py-16 \">\n+                                    <div class=\"w-full bg-gray-200 py-8 \">\n                                         <div class=\"ctr xl:max-w-screen-xl\">\n                                             <div\n                                                 class=\"w-full flex justify-center \">\n                                                 <?php foreach ($children as $child) { ?>\n"
+                },
+                {
+                    "date": 1643200144064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -274,9 +274,9 @@\n                         </ul>\n                         \n                     </div>\n                     <div class=\"w-1/2 my-auto block md:hidden \" >  \n-                        <div class=\"flex flex-row float-right  mx-5\">\n+                        <div class=\"flex flex-row float-right\">\n                             <a href=\"tel:01604 791 791\" class=\"text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mx-2\"><i class=\" fas fa-phone \"></i></a>\n                             <button id=\"menuBtn\" class=\"w-1/2 hamburger focus:outline-none my-auto mx-2 \" type=\"button\" onclick=\"navToggle();\">\n                                 <span class=\"hamburger__top-bun\"></span><span class=\"hamburger__middle-bun\"></span><span class=\"hamburger__bottom-bun\"></span>\n                             </button>\n"
+                },
+                {
+                    "date": 1643200173951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,9 @@\n                                 <img loading=\"lazy\"\n                                     src=\"<?php echo bloginfo('template_url') ?>/assets/img/speedy-windows-logo.png\"\n                                     alt=\"\" title=\"speedy-windows-logo\"\n                                     height=\"auto\" width=\"auto\"\n-                                    class=\"w-full object-cover transition-all duration-200 ease-in py-4\">\n+                                    class=\"w-1/2 lg:w-full object-cover transition-all duration-200 ease-in py-4\">\n                             </a>\n                         </div>\n                     </div>\n                     <div class=\"w-[80%] hidden lg:flex \">\n"
+                },
+                {
+                    "date": 1643204382515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n \n     <div class=\"relative bg-white z-0\">\n         <div id=\"nav\" class=\"z-50 shadow-nav mr-2\">\n             <div\n-                class=\"text-primary  bg-white w-full transition-all duration-200 ease-in\">\n+                class=\"text-black  bg-white w-full transition-all duration-200 ease-in\">\n                 <div id=\"nav_padding\"\n                     class=\"w-full flex justify-between px-6 py-1 ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl items-center\">\n                     <div id=\"logo\"\n                         class=\"w-[180px] relative z-10 transition-all duration-200 ease-in\">\n"
+                },
+                {
+                    "date": 1643204467880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,12 +266,11 @@\n                                     Get In Touch\n                                 </div>\n                             </li> -->\n                             <?php } ?>\n-                            <a class=\"flex flex-row my-auto hover:text-primary\" href=\"/contact-us/\">\n-                            <i class=\"mt-1 fa fa-phone \"></i>\n-                            <p class=\"mx-3 font-bold\"> GET IN TOUCH </p>\n-                        </a>\n+                            <a class=\"flex flex-row my-auto bg-primary text-white border-primary hover:bg-white hover:text-primary\" href=\"/contact-us/\">\n+                                <p class=\"mx-3 font-bold\"> GET STARTED </p>\n+                            </a>\n                         </ul>\n                         \n                     </div>\n                     <div class=\"w-1/2 my-auto block md:hidden \" >  \n"
+                },
+                {
+                    "date": 1643204477306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,9 +266,9 @@\n                                     Get In Touch\n                                 </div>\n                             </li> -->\n                             <?php } ?>\n-                            <a class=\"flex flex-row my-auto bg-primary text-white border-primary hover:bg-white hover:text-primary\" href=\"/contact-us/\">\n+                            <a class=\"flex flex-row my-auto bg-primary text-white border-primary hover:bg-white hover:text-primary p-4\" href=\"/contact-us/\">\n                                 <p class=\"mx-3 font-bold\"> GET STARTED </p>\n                             </a>\n                         </ul>\n                         \n"
+                },
+                {
+                    "date": 1643209347832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n                                     href=\"<?php echo $url ?>\"><?php echo $title ?></a>\n                                 <?php if ($children) { ?>\n \n                                 <div\n-                                    class=\"absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-0 capitalize\">\n+                                    class=\"absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize\">\n                                     <div class=\"w-full bg-gray-200 py-8 \">\n                                         <div class=\"ctr xl:max-w-screen-xl\">\n                                             <div\n                                                 class=\"w-full flex justify-center \">\n"
                 }
             ],
             "date": 1643194225559,

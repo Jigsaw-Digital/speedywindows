@@ -1,0 +1,18 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/skewed_image/skewed_image.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1643198739611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1643198739611,
+            "name": "Commit-0",
+            "content": "<?php \n$image = get_sub_field('image');\n$top_title = get_sub_field('top_title');\n$title = get_sub_field('title');\n$paragraphs = get_sub_field('paragraphs');\n?>\n\n<div class=\"w-full bg-white my-10 sm:my-14 md:my-16\">\n    <div\n        class=\"w-full flex flex-col lg:flex-row lg:justify-between lg:items-stretch 2xl:items-center h-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-full\">\n        <div class=\"w-full lg:w-1/2 relative \">\n            <div class=\"lg:pr-4 lg:py-2 bg-black w-full h-full lg:skew-image\"\n                style=\"\">\n                <div class=\"lg:pr-6 bg-secondary w-full h-full lg:skew-image\"\n                    style=\"\">\n                    <div style=\"\" class=\"w-full h-full lg:skew-image\">\n                        <img class=\"w-full  object-cover h-full\"\n                            src=\"<?php echo $image['url'] ?>\" alt=\"\">\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"w-full lg:w-1/2 mt-4 lg:mt-0\">\n            <div class=\"lg:px-10 xl:px-24 2xl:px-32\">\n                <div class=\"\">\n                    <p\n                        class=\"uppercase py-2 px-4 bg-tertiary inline rounded-3xl text-white font-bold \">\n                        <?php echo $top_title ?>\n                    </p>\n                </div>\n                <div class=\"mt-6\">\n                    <h4 class=\"text-3xl font-bold\">\n                        <?php echo $title ?>\n                    </h4>\n                </div>\n                <?php foreach($paragraphs as $paragraph) {?>\n                <div class=\"mt-4\">\n                    <p class=\"\">\n                        <?php echo $paragraph['paragraph'] ?>\n                    </p>\n                </div>\n                <?php }?>\n            </div>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}
