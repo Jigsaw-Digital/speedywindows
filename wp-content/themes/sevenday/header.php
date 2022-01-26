@@ -178,7 +178,7 @@ $menuitems = buildTree($menu_3);
 
                                 <div
                                     class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-0 capitalize">
-                                    <div class="w-full bg-primary py-16 ">
+                                    <div class="w-full bg-gray-200 py-16 ">
                                         <div class="ctr xl:max-w-screen-xl">
                                             <div
                                                 class="w-full flex justify-center ">
@@ -190,7 +190,7 @@ $menuitems = buildTree($menu_3);
 
                                                 <div class="w-[20%]">
                                                     <h6 class="uppercase">
-                                                        <a class="hover:text-secondary font-bold text-white"
+                                                        <a class="hover:text-secondary font-bold text-black"
                                                             href="<?php echo $child_url ?>"><?php echo $child_title ?></a>
                                                     </h6>
                                                     <?php if ($sub_children) { ?>
@@ -200,7 +200,7 @@ $menuitems = buildTree($menu_3);
                                                                 $sub_child_url = $sub_child->url;
                                                         ?>
                                                         <li class="mt-2">
-                                                            <a class="hover:text-secondary text-white"
+                                                            <a class="hover:text-secondary text-black"
                                                                 href="<?php echo $sub_child_url ?>"><?php echo $sub_child_title ?></a>
                                                         </li>
                                                         <?php }?>
@@ -237,6 +237,7 @@ $menuitems = buildTree($menu_3);
 
                                 <?php }?>
                             </li>
+                            
                             <!-- <li class="uppercase">
                                 <a href="">About Us</a>
                             </li>
@@ -252,7 +253,12 @@ $menuitems = buildTree($menu_3);
                                 </div>
                             </li> -->
                             <?php } ?>
+                            <a class="flex flex-row my-auto" href="/contact-us/">
+                            <i class="mt-1 fa fa-phone "></i>
+                            <p class="mx-3 font-bold"> GET IN TOUCH </p>
+                        </a>
                         </ul>
+                        
                     </div>
                     <div class="flex">
                         <div

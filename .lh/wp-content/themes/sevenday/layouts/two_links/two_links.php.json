@@ -1,0 +1,30 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/two_links/two_links.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1643196855676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643196886788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_1['title'] ?>\n                 </div>\n             </a>\n-            <a href=\"<?php echo $link_2['url'] ?>\">\n+            <a class=\"mr-2\"href=\"<?php echo $link_2['url'] ?>\">\n                 <div\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_2['title'] ?>\n                 </div>\n"
+                },
+                {
+                    "date": 1643196893581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_1['title'] ?>\n                 </div>\n             </a>\n-            <a class=\"mr-2\"href=\"<?php echo $link_2['url'] ?>\">\n+            <a class=\"mr-2\" href=\"<?php echo $link_2['url'] ?>\">\n                 <div\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_2['title'] ?>\n                 </div>\n"
+                },
+                {
+                    "date": 1643196904600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_1['title'] ?>\n                 </div>\n             </a>\n-            <a class=\"mr-2\" href=\"<?php echo $link_2['url'] ?>\">\n+            <a class=\"ml-2\" href=\"<?php echo $link_2['url'] ?>\">\n                 <div\n                     class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                     <?php echo $link_2['title'] ?>\n                 </div>\n"
+                }
+            ],
+            "date": 1643196855676,
+            "name": "Commit-0",
+            "content": "<?php \n$link_1 = get_sub_field('link_1');\n$link_2 = get_sub_field('link_2');\n?>\n\n\n<div class=\"w-full bg-primary py-5\">\n    <div class=\"w-full flex justify-center\">\n        <div class=\"flex\">\n            <a href=\"<?php echo $link_1['url'] ?>\">\n                <div\n                    class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                    <?php echo $link_1['title'] ?>\n                </div>\n            </a>\n            <a href=\"<?php echo $link_2['url'] ?>\">\n                <div\n                    class=\"uppercase bg-secondary hover:bg-secondary_hover px-8 py-2 sm:py-3 sm:px-12 rounded-md text-white  font-bold transition-all ease-in duration-100 hover:text-white\">\n                    <?php echo $link_2['title'] ?>\n                </div>\n            </a>\n        </div>\n    </div>\n\n</div>"
+        }
+    ]
+}
