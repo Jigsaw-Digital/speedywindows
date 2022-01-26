@@ -145,12 +145,26 @@ $menuitems = buildTree($menu_3);
     }
     </script>
 
+<script> 
+
+
+function navToggle() {
+        var btn = document.getElementById('menuBtn');
+        var nav = document.getElementById('menu');
+
+        btn.classList.toggle('open');
+        nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
+    }
+
+
+</script>
 
     <div class="relative bg-white z-0">
         <div id="nav" class="z-50 shadow-nav mr-2">
             <div
                 class="text-primary  bg-white w-full transition-all duration-200 ease-in">
-                <div
+                <div id="nav_padding"
                     class="w-full flex justify-between px-6 py-1 ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl items-center">
                     <div id="logo"
                         class="w-[180px] relative z-10 transition-all duration-200 ease-in">
@@ -164,7 +178,7 @@ $menuitems = buildTree($menu_3);
                             </a>
                         </div>
                     </div>
-                    <div class="w-[80%] hidden lg:flex px-32 ">
+                    <div class="w-[80%] hidden lg:flex ">
                         <ul class="flex justify-between w-full">
                             <?php foreach ($menuitems as $item) { ?>
                             <?php $title = $item->title; ?>
@@ -178,7 +192,7 @@ $menuitems = buildTree($menu_3);
 
                                 <div
                                     class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-0 capitalize">
-                                    <div class="w-full bg-gray-200 py-16 ">
+                                    <div class="w-full bg-gray-200 py-8 ">
                                         <div class="ctr xl:max-w-screen-xl">
                                             <div
                                                 class="w-full flex justify-center ">
@@ -253,35 +267,30 @@ $menuitems = buildTree($menu_3);
                                 </div>
                             </li> -->
                             <?php } ?>
-                            <a class="flex flex-row my-auto" href="/contact-us/">
+                            <a class="flex flex-row my-auto hover:text-primary" href="/contact-us/">
                             <i class="mt-1 fa fa-phone "></i>
                             <p class="mx-3 font-bold"> GET IN TOUCH </p>
                         </a>
                         </ul>
                         
                     </div>
-                    <div class="flex">
-                        <div
-                            class="text-xl text-tertiary lg:hidden border border-solid border-tertiary hover:text-secondary_hover px-2 py-1 mx-4 cursor-pointer">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div id="mobile-nav-trigger"
-                            class="text-xl text-tertiary lg:hidden border border-solid border-tertiary hover:text-secondary_hover px-2 py-1 cursor-pointer">
-                            <i class="fas fa-bars"></i>
+                    <div class="w-1/2 my-auto block md:hidden " >  
+                        <div class="flex flex-row float-right  mx-5">
+                            <a href="tel:01604 791 791" class="text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mx-2"><i class=" fas fa-phone "></i></a>
+                            <button id="menuBtn" class="w-1/2 hamburger focus:outline-none my-auto mx-2 " type="button" onclick="navToggle();">
+                                <span class="hamburger__top-bun"></span><span class="hamburger__middle-bun"></span><span class="hamburger__bottom-bun"></span>
+                            </button>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div id="mobile-nav"
-                class="w-0 hidden overflow-hidden transition-all ease-in duration-700 fixed right-0 top-0 flex-col  bg-tertiary h-screen p-5 z-50 lg:hidden">
-                <div id="mobile-nav-close"
-                    class="nav_close text-black hover:text-primary_pampadour z-50 text-3xl cursor-pointer">
-                    <i class="fa fa-times font-fontAwesome"></i>
-                </div>
-                <div class="nav_container flex flex-col h-full ">
+            <div id="menu"
+                class=" hidden overflow-hidden transition-all ease-in duration-700 fixed w-screen flex-col  bg-white  p-5 z-50 lg:hidden">
+                
+                <div  class="nav_container flex flex-col h-full ">
                     <ul
-                        class="tfs_mobile_nav_inner_container mt-8 flex flex-col justify-start ">
+                        class="tfs_mobile_nav_inner_container flex flex-col justify-start ">
 
                         <?php foreach ($get_mobile_menu_items as $item) { ?>
                         <?php $title = $item->title; ?>
@@ -292,24 +301,25 @@ $menuitems = buildTree($menu_3);
                     ?>
 
                         <li
-                            class="font-bold mx-4 my-1 text-base text-white hover:text-primary_pampadour  no-underline ">
+                            class="font-bold mx-4 my-1 text-base text-primary hover:text-primary_pampadour  no-underline ">
                             <div class="w-full flex items-center ">
-                                <div class="w-3/4">
+                                <div class="w-full">
                                     <a
                                         href="<?php echo $url ?>"><?php echo $title ?></a>
                                 </div>
                                 <?php if ($children) { ?>
+                                    
                                 <div id="mobile-nav-child-trigger"
                                     class="w-3/12 text-right text-xl  cursor-pointer"
                                     onclick="handleSubNavItem(this, '<?php echo $title ?>')">
                                     <i
-                                        class="fas fa-sort-down  transform transition-all ease-in duration-200"></i>
+                                        class="fas fa-chevron-down transform transition-all ease-in duration-200"></i>
                                 </div>
                                 <?php } ?>
                             </div>
                             <?php if ($children) { ?>
                             <ul id="mobile-nav-child-<?php echo $title ?>"
-                                class="hidden mt-2 px-4  cursor-pointer text-white ">
+                                class="hidden mt-2 px-4  cursor-pointer text-primary ">
 
                                 <?php foreach ($children as $child) { ?>
                                 <?php $child_title = $child->title;
@@ -337,3 +347,98 @@ $menuitems = buildTree($menu_3);
             </div>
 
         </div>
+
+        <style>
+
+/* HAMBURGER MENU */
+
+.hamburger {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  transition: all 0.25s; 
+  z-index: 20;
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(-1px);
+  
+  
+}
+
+
+.open .hamburger__top-bun {
+  transform:
+    rotate(45deg)
+    translateY(0px);
+
+ 
+}
+
+.open .hamburger__bottom-bun {
+  transform:
+    rotate(-45deg)
+    translateY(-2px);
+
+}
+
+.open .hamburger__middle-bun {
+  display: none;
+}
+
+.hamburger__top-bun,
+.hamburger__middle-bun,
+.hamburger__bottom-bun {
+  content: '';
+  width: 30px;
+  height: 2px;
+  color:#558D4C;
+  background:#558D4C;
+  transform: rotate(0);
+  transition: all 0.5s;
+  float:right;
+  z-index: 30;
+}
+
+.hamburger:hover [class*="-bun"] {
+  background:#8CE87D;
+}
+
+.hamburger__top-bun {
+  transform: translateY(-5px);
+}
+
+.hamburger__middle-bun {
+  transform: translateY(2px);
+}
+
+.hamburger__bottom-bun {
+  transform: translateY(9px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(-1px);
+}
+
+.open .hamburger__top-bun {
+  transform:
+    rotate(45deg)
+    translateY(0px);
+}
+
+.open .hamburger__bottom-bun {
+  transform:
+    rotate(-45deg)
+    translateY(0px);
+}
+.arrow{
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid #000;
+        border-bottom: 2px solid #000;
+        transform: rotate(45deg);
+        margin-top: 7px;
+    }
+</style>
