@@ -5,10 +5,10 @@
 <div class="bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
-        <div class="flex flex-col md:flex-row relative z-0">
+        <div class="flex flex-wrap relative z-0">
             <?php foreach($tabs as $key=>$tab) {?>
             <div
-                class="md:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none">
+                class="w-full sm:w-[45%] md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3">
                 <div id="tab-selector"
                     onclick="goToIndex(this, <?php echo $key ?>)"
                     class="bg-primary_grey pr-10 pl-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">

@@ -1792,10 +1792,10 @@ video {
 		--tw-shadow: 0 0 #0000;
 		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 	}
-
-    .md\:skew-tab {
+    .md\:skew-tab-md {
       -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
               clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+      width: 40%;
     }
 }
 @media (min-width: 1024px) {
@@ -2042,6 +2042,12 @@ video {
     .lg\:skew-image {
       -webkit-clip-path: polygon(0% 0%, 100% 0%, 92% 100%, 0% 100%);
               clip-path: polygon(0% 0%, 100% 0%, 92% 100%, 0% 100%);
+    }
+
+    .lg\:skew-tab {
+      -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+              clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+      width: 22%;
     }
 }
 @media (min-width: 1280px) {
