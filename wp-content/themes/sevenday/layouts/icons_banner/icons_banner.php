@@ -20,7 +20,7 @@
 
         </div>
     </div>
-    <div class="lg:w-2/6 uppercase -mt-60 xl:-mt-40 2xl:-mt-32 ">
+    <div class="lg:w-2/6 uppercase -mt-60 lg:-mt-48 xl:-mt-40 2xl:-mt-32 ">
         <div class="hidden lg:block mx-8 2xl:mx-16   bg-secondary text-white p-5">
             <div class="text-2xl my-3"><?php echo $banner_title ?></div>
             <div><?php echo $banner_paragraph ?></div>

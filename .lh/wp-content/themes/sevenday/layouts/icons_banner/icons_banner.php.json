@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 110,
+            "activePatchIndex": 111,
             "patches": [
                 {
                     "date": 1643207025243,
@@ -448,6 +448,10 @@
                 {
                     "date": 1643289470032,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 uppercase -mt-80 xl:-mt-40 2xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 uppercase -mt-60 xl:-mt-40 2xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-8 2xl:mx-16   bg-secondary text-white p-5\">\n             <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
+                },
+                {
+                    "date": 1643290023780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 uppercase -mt-60 xl:-mt-40 2xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 uppercase -mt-60 lg:-mt-48 xl:-mt-40 2xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-8 2xl:mx-16   bg-secondary text-white p-5\">\n             <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
                 }
             ],
             "date": 1643207025243,

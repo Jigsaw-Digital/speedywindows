@@ -1793,6 +1793,10 @@ video {
 		margin-top: 0px;
 	}
 
+	.lg\:-mt-48 {
+		margin-top: -12rem;
+	}
+
 	.lg\:block {
 		display: block;
 	}
