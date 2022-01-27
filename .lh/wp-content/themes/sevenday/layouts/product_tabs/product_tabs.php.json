@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 68,
+            "activePatchIndex": 75,
             "patches": [
                 {
                     "date": 1643199515499,
@@ -280,6 +280,34 @@
                 {
                     "date": 1643298384742,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n         <div class=\"flex flex-wrap relative z-0\">\n             <?php foreach($tabs as $key=>$tab) {?>\n             <div\n-                class=\"w-full sm:w-1/2 md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3\">\n+                class=\"w-full sm:w-[45%] md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3\">\n                 <div id=\"tab-selector\"\n                     onclick=\"goToIndex(this, <?php echo $key ?>)\"\n                     class=\"bg-primary_grey pr-10 pl-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap\">\n                     <?php echo $tab['tab_title']?></div>\n"
+                },
+                {
+                    "date": 1643301653149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n                                     <?php }?>\n \n                                 </div>\n                                 <div\n-                                    class=\"w-full lg:w-45-percent flex justify-end\">\n+                                    class=\"w-full lg:w-45-percent flex \">\n                                     <div>\n                                         <img src=\"<?php echo $tab['tables']['image']['url'] ?>\"\n                                             alt=\"\">\n                                     </div>\n"
+                },
+                {
+                    "date": 1643301659106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n                                     <?php }?>\n \n                                 </div>\n                                 <div\n-                                    class=\"w-full lg:w-45-percent flex \">\n+                                    class=\"w-full lg:w-45-percent flex justify-end\">\n                                     <div>\n                                         <img src=\"<?php echo $tab['tables']['image']['url'] ?>\"\n                                             alt=\"\">\n                                     </div>\n"
+                },
+                {
+                    "date": 1643301720446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n                                     <?php }?>\n \n                                 </div>\n                                 <div\n-                                    class=\"w-full lg:w-45-percent flex justify-end\">\n+                                    class=\"w-full lg:w-45-percent flex mx-auto\">\n                                     <div>\n                                         <img src=\"<?php echo $tab['tables']['image']['url'] ?>\"\n                                             alt=\"\">\n                                     </div>\n"
+                },
+                {
+                    "date": 1643301744198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,10 +131,10 @@\n                                     <?php }?>\n \n                                 </div>\n                                 <div\n-                                    class=\"w-full lg:w-45-percent flex mx-auto\">\n-                                    <div>\n+                                    class=\"w-full lg:w-45-percent flex\">\n+                                    <div class=\"mx-auto\">\n                                         <img src=\"<?php echo $tab['tables']['image']['url'] ?>\"\n                                             alt=\"\">\n                                     </div>\n                                 </div>\n"
+                },
+                {
+                    "date": 1643301762734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n \n                                 </div>\n                                 <div\n                                     class=\"w-full lg:w-45-percent flex\">\n-                                    <div class=\"mx-auto\">\n+                                    <div class=\"m-auto\">\n                                         <img src=\"<?php echo $tab['tables']['image']['url'] ?>\"\n                                             alt=\"\">\n                                     </div>\n                                 </div>\n"
+                },
+                {
+                    "date": 1643301876234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <div class=\"bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n-        <div class=\"flex flex-wrap relative z-0\">\n+        <div class=\"flex flex-wrap relative z-0 py-10 md:py-0\">\n             <?php foreach($tabs as $key=>$tab) {?>\n             <div\n                 class=\"w-full sm:w-[45%] md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3\">\n                 <div id=\"tab-selector\"\n"
+                },
+                {
+                    "date": 1643301945742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <div class=\"bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n-        <div class=\"flex flex-wrap relative z-0 py-10 md:py-0\">\n+        <div class=\"flex flex-wrap relative z-0 py-5 md:py-0\">\n             <?php foreach($tabs as $key=>$tab) {?>\n             <div\n                 class=\"w-full sm:w-[45%] md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3\">\n                 <div id=\"tab-selector\"\n"
                 }
             ],
             "date": 1643199515499,

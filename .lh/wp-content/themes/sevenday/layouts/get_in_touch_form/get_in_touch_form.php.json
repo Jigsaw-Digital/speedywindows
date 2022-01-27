@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1643280604218,
@@ -12,6 +12,10 @@
                 {
                     "date": 1643291371362,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                         <h6>\n                             Our contact number\n                         </h6>\n                     </div>\n-                    <div class=\" w-full text-center mt-4 text-secondary\">\n+                    <div class=\" w-full text-center mt-4 text-white hover:text-secondary\">\n                         <a href=\"tel:01443 777 333\">\n                             01443 777 333\n                         </a>\n                     </div>\n"
+                },
+                {
+                    "date": 1643300590344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php \n \n ?>\n \n-<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full py-20\">\n+<div class=\"bg-white my-10 sm:my-14 md:my-8 w-full py-20\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  \">\n         <div class=\"w-full flex flex-col lg:flex-row lg:items-start\">\n             <div class=\"w-full lg:w-4/6\">\n"
                 }
             ],
             "date": 1643280604218,

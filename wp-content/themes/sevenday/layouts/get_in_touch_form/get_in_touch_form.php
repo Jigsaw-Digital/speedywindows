@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="bg-white my-10 sm:my-14 md:my-16 w-full py-20">
+<div class="bg-white my-10 sm:my-14 md:my-8 w-full py-10">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  ">
         <div class="w-full flex flex-col lg:flex-row lg:items-start">

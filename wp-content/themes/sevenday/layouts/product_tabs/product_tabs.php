@@ -5,7 +5,7 @@
 <div class="bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
-        <div class="flex flex-wrap relative z-0">
+        <div class="flex flex-wrap relative z-0 py-5 md:py-0">
             <?php foreach($tabs as $key=>$tab) {?>
             <div
                 class="w-full sm:w-[45%] md:skew-tab-md lg:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none mx-3">
@@ -132,8 +132,8 @@
 
                                 </div>
                                 <div
-                                    class="w-full lg:w-45-percent flex justify-end">
-                                    <div>
+                                    class="w-full lg:w-45-percent flex">
+                                    <div class="m-auto">
                                         <img src="<?php echo $tab['tables']['image']['url'] ?>"
                                             alt="">
                                     </div>

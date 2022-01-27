@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 58,
+            "activePatchIndex": 60,
             "patches": [
                 {
                     "date": 1643210428780,
@@ -240,6 +240,14 @@
                 {
                     "date": 1643294515263,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n             <?php } ?>\n         </div>\n         <div class=\"w-full lg:w-1/2 lg:mb-10 mt-20\">\n             <?php foreach($right_column as $right) {?>\n-            <div class=\"w-3/4 mx-auto my-10 bg-secondary text-white p-5 \">\n+            <div class=\"w-3/4 mx-auto my-10 bg-[#3F3F3F] text-white p-5 \">\n                 <div class=\" text-2xl\">\n                     <?php echo $right['title']?>\n                 </div>\n             \n"
+                },
+                {
+                    "date": 1643298797729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             </a>\n             </div>\n             <?php } ?>\n         </div>\n-        <div class=\"w-full lg:w-1/2 lg:mb-10 mt-20\">\n+        <div class=\"w-full lg:w-1/2 lg:mb-10 mt-10 lg:mt-20\">\n             <?php foreach($right_column as $right) {?>\n             <div class=\"w-3/4 mx-auto my-10 bg-[#3F3F3F] text-white p-5 \">\n                 <div class=\" text-2xl\">\n                     <?php echo $right['title']?>\n"
+                },
+                {
+                    "date": 1643298824332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             </a>\n             </div>\n             <?php } ?>\n         </div>\n-        <div class=\"w-full lg:w-1/2 lg:mb-10 mt-10 lg:mt-20\">\n+        <div class=\"w-full lg:w-1/2 lg:mb-10 lg:mt-20\">\n             <?php foreach($right_column as $right) {?>\n             <div class=\"w-3/4 mx-auto my-10 bg-[#3F3F3F] text-white p-5 \">\n                 <div class=\" text-2xl\">\n                     <?php echo $right['title']?>\n"
                 }
             ],
             "date": 1643210428780,

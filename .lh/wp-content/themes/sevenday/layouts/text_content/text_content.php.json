@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1643288277238,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643299428531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  \">\n         <div class=\"w-full text-center\">\n             <h3\n-                class=\"text-4xl sm:text-5xl font-bold text-secondary  border-b border-link_water border-opacity-25 py-4\">\n+                class=\"text-4xl sm:text-5xl font-bold text-secondary  border-b border-link_water  py-4\">\n                 <?php echo $title ?>\n             </h3>\n             <p class=\"mt-4\">\n                 <?php echo $text_editor ?>\n"
+                },
+                {
+                    "date": 1643299434629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  \">\n         <div class=\"w-full text-center\">\n             <h3\n-                class=\"text-4xl sm:text-5xl font-bold text-secondary  border-b border-link_water  py-4\">\n+                class=\"text-4xl sm:text-5xl font-bold text-secondary  border-b border-link_water border-opacity-25 py-4\">\n                 <?php echo $title ?>\n             </h3>\n             <p class=\"mt-4\">\n                 <?php echo $text_editor ?>\n"
                 }
             ],
             "date": 1643288277238,

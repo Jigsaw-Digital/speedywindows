@@ -1,28 +1,28 @@
 <footer role="contentinfo" class="w-full">
     <div class="w-full ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
         <div
-            class="w-full flex justify-start md:justify-start flex-wrap md:flex-nowrap">
-            <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
+            class="w-full flex justify-center md:justify-start flex-wrap md:flex-nowrap">
+            <div class="w-1/2 sm:w-1/3 lg:w-[20%] p-10">
                 <img class="w-full"
                     src="<?php bloginfo('template_url') ?>/assets/img/pilkington.png"
                     alt="">
             </div>
-            <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
+            <div class="w-1/2 sm:w-1/3 lg:w-[20%] p-10">
                 <img class="w-full"
                     src="<?php bloginfo('template_url') ?>/assets/img/bba.jpeg"
                     alt="">
             </div>
-            <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
+            <div class="w-1/2 sm:w-1/3 lg:w-[20%] p-10">
                 <img class="w-full"
                     src="<?php bloginfo('template_url') ?>/assets/img/bsi.png"
                     alt="">
             </div>
-            <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
+            <div class="w-1/2 sm:w-1/3 lg:w-[20%] p-10">
                 <img class="w-full"
                     src="<?php bloginfo('template_url') ?>/assets/img/yale.jpeg"
                     alt="">
             </div>
-            <div class="w-40 xsm:w-44 sm:w-52 md:w-[20%] p-10">
+            <div class="w-1/2 sm:w-1/3 lg:w-[20%] p-10">
                 <img class="w-full"
                     src="<?php bloginfo('template_url') ?>/assets/img/duraflex.jpeg"
                     alt="">
@@ -31,8 +31,8 @@
     </div>
     <div class="w-full bg-gray-200 py-10 text-primary">
         <div class="w-full ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl">
-            <div class="w-full flex flex-wrap md:flex-nowrap">
-                <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
+            <div class="w-full flex flex-wrap lg:flex-nowrap">
+                <div class="w-full xsm:w-1/2 sm:w-1/2 my-4 lg:my-0 lg:w-1/4">
                     <h2 class="text-xl font-bold px-4">Trade Support</h2>
                     <div class="mt-2 text-black px-4">
                         <div class="my-1 hover:text-primary">
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
+                <div class="w-full xsm:w-1/2 sm:w-1/2 my-4 lg:my-0 lg:w-1/4">
                     <h2 class="text-xl font-bold px-4">Useful Links</h2>
                     <div class="mt-2 text-black px-4">
                         <div class="my-1 hover:text-primary">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
+                <div class="w-full xsm:w-1/2 sm:w-1/2 my-4 lg:my-0 lg:w-1/4">
                     <h2 class="text-xl font-bold px-4">Products</h2>
                     <div class="mt-2 text-black px-4">
                         <div class="my-1 hover:text-primary">
@@ -126,7 +126,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="w-full xsm:w-1/2 sm:w-2/6 my-4 md:my-0 md:w-1/4">
+                <div class="w-full xsm:w-1/2 sm:w-1/2 my-4 lg:my-0 lg:w-1/4">
                     <h2 class="text-xl font-bold px-4">Contact</h2>
                     <div class="mt-2 text-black px-4">
                         <div class="my-1 hover:text-primary">

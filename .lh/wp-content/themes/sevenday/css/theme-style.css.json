@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 43,
+            "activePatchIndex": 50,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -180,6 +180,34 @@
                 {
                     "date": 1643298440461,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n     }\n \n     .skew-tab {\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n-      width: 20%;\n+      width: 22%;\n     }\n     .skew-tab-md {\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n       width: 40%;\n"
+                },
+                {
+                    "date": 1643299147986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n       width: 22%;\n     }\n     .skew-tab-md {\n       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);\n-      width: 40%;\n+      width: 45%;\n     }\n \n     .active-tab {\n       @apply bg-primary text-white ;\n"
+                },
+                {
+                    "date": 1643300210201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,5 +156,8 @@\n   @apply w-full md:w-[45%];\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n+}\n+.pt-4 {\n+  padding-top: 1rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643300240779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,7 +157,4 @@\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n-.pt-4 {\n-  padding-top: 1rem;\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643300271300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,4 +157,7 @@\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n+.pt-4 {\n+  padding-top: 1rem;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643300291693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,6 +158,6 @@\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n .pt-4 {\n-  padding-top: 1rem;\n+  margin-top: 1rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643300308334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,6 +158,6 @@\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n .pt-4 {\n-  margin-top: 1rem;\n+  padding-top: 1rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643300334252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,8 +156,5 @@\n   @apply w-full md:w-[45%];\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n-}\n-.pt-4 {\n-  padding-top: 1rem;\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1643199342977,

@@ -51,7 +51,7 @@
     }
     .skew-tab-md {
       clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
-      width: 40%;
+      width: 45%;
     }
 
     .active-tab {
