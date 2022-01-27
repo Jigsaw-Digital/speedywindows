@@ -29,7 +29,7 @@ $posts = get_sub_field('posts');
                     <?php echo $posts_heading ?>
                 </h4>
             </div>
-            <div class="mt-5 flex flex-wrap justify-between ">
+            <div class="mt-5 flex flex-wrap justify-between jd-layout-y-spacing lg:mx-10">
                 <?php foreach($posts as $post ) {?>
                 <div class="w-full sm:w-[45%] lg:w-[30%] my-8 bg-white">
                     <div class="w-full text-primary">
@@ -48,14 +48,14 @@ $posts = get_sub_field('posts');
                         </h6>
                     </div>
                     <div class="w-full mt-4 px-4">
-                        <div class="w-full flex text-sm justify-between text-primary">
+                        <div class="w-full flex text-xs font-light justify-between text-black">
                             <p>
                                 <?php echo $post['post_date'] ?>
                             </p>
                         </div>
                     </div>
                     <div class="w-full px-4 mt-4 mb-4">
-                        <p class="hover:underline text-primary">
+                        <p class="hover:underline text-black">
                             <a href="<?php echo $post['post_link']['url'] ?>">
                                 <?php echo $post['post_paragraph'] ?>
                             </a>

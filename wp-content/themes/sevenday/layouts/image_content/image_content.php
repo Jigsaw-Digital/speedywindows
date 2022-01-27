@@ -4,7 +4,7 @@ $image = get_sub_field('image');
 $layout_direction = get_sub_field('layout_direction');
 ?>
 
-<div class="w-full my-10 sm:my-14 md:my-16">
+<div class="w-full my-10 sm:my-14 md:my-16 jd-layout-y-spacing">
     <div
         class='w-full px-4 flex flex-col <?php echo $layout_direction=="left"?"lg:flex-row":'lg:flex-row-reverse' ?> justify-between'>
         <div class="w-1/2 flex items-start flex-col">

@@ -204,7 +204,7 @@ function navToggle() {
 
                                                 <div class="w-[20%]">
                                                     <h6 class="uppercase">
-                                                        <a class="hover:text-secondary font-bold text-black"
+                                                        <a class="hover:text-secondary font-bold text-primary"
                                                             href="<?php echo $child_url ?>"><?php echo $child_title ?></a>
                                                     </h6>
                                                     <?php if ($sub_children) { ?>
@@ -267,7 +267,7 @@ function navToggle() {
                                 </div>
                             </li> -->
                             <?php } ?>
-                            <a class="flex flex-row my-auto bg-primary text-white border-primary hover:bg-white hover:text-primary p-4" href="/contact-us/">
+                            <a class="flex flex-row my-auto bg-primary text-white border border-primary hover:bg-white hover:text-primary p-4" href="/contact-us/">
                                 <p class="mx-3 font-bold"> GET STARTED </p>
                             </a>
                         </ul>

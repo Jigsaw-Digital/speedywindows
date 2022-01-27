@@ -39,7 +39,7 @@ $product_links = get_sub_field('product_links');
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0">
+            <div class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing">
                 <h2 class="text-5xl font-bold text-primary"><?php echo $title ?>
                 </h2>
                 <div class="mt-4">

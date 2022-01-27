@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 103,
+            "activePatchIndex": 110,
             "patches": [
                 {
                     "date": 1643207025243,
@@ -420,6 +420,34 @@
                 {
                     "date": 1643209778620,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n     </div>\n     <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n-            <div class=\"text-2xl\"><?php echo $banner_title ?></div>\n+            <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1643289150341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n             class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-row mx-auto py-2\">\n+            <div class=\"flex flex-row mx-auto py-2 w-1/8\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643289219721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n             class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-row mx-auto py-2 w-1/8\">\n+            <div class=\"flex flex-row mx-auto py-2 w-[10%]\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643289265415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         class=\"w-full lg:w-4/6  container mx-auto \">\n         <div\n             class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n-            <div class=\"flex flex-row mx-auto py-2 w-[10%]\">\n+            <div class=\"flex flex-row mx-auto py-2\">\n                 <span class=\"text-white text-4xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n"
+                },
+                {
+                    "date": 1643289281760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <div\n             class=\"w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row\">\n             <?php foreach($icons as $icon) {?>\n             <div class=\"flex flex-row mx-auto py-2\">\n-                <span class=\"text-white text-4xl\"><i\n+                <span class=\"text-white text-2xl\"><i\n                         class=\"fas fa-<?php echo $icon['icon'] ?>\"></i></span>\n                 <span\n                     class=\"mx-4 my-auto whitespace-nowrap text-primary_v1\"><?php echo $icon['text'] ?></span>\n             </div>\n"
+                },
+                {
+                    "date": 1643289362960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n         </div>\n     </div>\n     <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n-        <div class=\"hidden lg:block mx-16   bg-secondary text-white p-5\">\n+        <div class=\"hidden lg:block mx-8 xl:mx-16   bg-secondary text-white p-5\">\n             <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643289427285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 uppercase -mt-40 xl:-mt-32 \">\n-        <div class=\"hidden lg:block mx-8 xl:mx-16   bg-secondary text-white p-5\">\n+    <div class=\"lg:w-2/6 uppercase -mt-80 xl:-mt-40 2xl:-mt-32 \">\n+        <div class=\"hidden lg:block mx-8 2xl:mx-16   bg-secondary text-white p-5\">\n             <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643289470032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <?php }?>\n \n         </div>\n     </div>\n-    <div class=\"lg:w-2/6 uppercase -mt-80 xl:-mt-40 2xl:-mt-32 \">\n+    <div class=\"lg:w-2/6 uppercase -mt-60 xl:-mt-40 2xl:-mt-32 \">\n         <div class=\"hidden lg:block mx-8 2xl:mx-16   bg-secondary text-white p-5\">\n             <div class=\"text-2xl my-3\"><?php echo $banner_title ?></div>\n             <div><?php echo $banner_paragraph ?></div>\n         </div>\n"
                 }
             ],
             "date": 1643207025243,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -64,6 +64,10 @@
                 {
                     "date": 1643284644215,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,4 +111,7 @@\n #gform_fields_1 textarea{\n   @apply border border-gray-300;\n }\n \n+.jd-layout-y-spacing{\n+  @apply my-5 lg:my-10 px-5 lg:px-0;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643288620239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,10 +91,10 @@\n       content: \"+\";\n       font-weight: bold;\n       border-width: 1px;\n       border-radius: 9999px;\n-      background: #a8c4a4;\n-      color: white;\n+      \n+      color:  #a8c4a4;\n     }\n \n     .accordion input[type=\"checkbox\"]:checked + label::after {\n       content: \"-\";\n"
                 }
             ],
             "date": 1643199342977,

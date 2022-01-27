@@ -698,6 +698,10 @@ video {
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
 }
+.mx-8 {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
 .mt-2 {
 	margin-top: 0.5rem;
 }
@@ -731,6 +735,9 @@ video {
 .mr-1 {
 	margin-right: 0.25rem;
 }
+.mt-20 {
+	margin-top: 5rem;
+}
 .-mt-40 {
 	margin-top: -10rem;
 }
@@ -743,17 +750,20 @@ video {
 .mb-10 {
 	margin-bottom: 2.5rem;
 }
+.ml-2 {
+	margin-left: 0.5rem;
+}
 .mr-4 {
 	margin-right: 1rem;
 }
 .mb-3 {
 	margin-bottom: 0.75rem;
 }
-.ml-2 {
-	margin-left: 0.5rem;
+.-mt-80 {
+	margin-top: -20rem;
 }
-.mt-20 {
-	margin-top: 5rem;
+.-mt-60 {
+	margin-top: -15rem;
 }
 .block {
 	display: block;
@@ -850,6 +860,9 @@ video {
 }
 .w-1\/4 {
 	width: 25%;
+}
+.w-\[10\%\] {
+	width: 10%;
 }
 .min-w-\[280px\] {
 	min-width: 280px;
@@ -948,8 +961,8 @@ video {
 .border-2 {
 	border-width: 2px;
 }
-.border-t-4 {
-	border-top-width: 4px;
+.border-t {
+	border-top-width: 1px;
 }
 .border-b {
 	border-bottom-width: 1px;
@@ -970,9 +983,9 @@ video {
 	--tw-border-opacity: 1;
 	border-color: rgba(85, 141, 76, var(--tw-border-opacity));
 }
-.border-secondary {
+.border-gray-400 {
 	--tw-border-opacity: 1;
-	border-color: rgba(104, 186, 90, var(--tw-border-opacity));
+	border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 }
 .border-link_water {
 	--tw-border-opacity: 1;
@@ -981,6 +994,10 @@ video {
 .border-primary_white_smoke {
 	--tw-border-opacity: 1;
 	border-color: rgba(247, 247, 247, var(--tw-border-opacity));
+}
+.border-secondary {
+	--tw-border-opacity: 1;
+	border-color: rgba(104, 186, 90, var(--tw-border-opacity));
 }
 .border-white {
 	--tw-border-opacity: 1;
@@ -1012,10 +1029,6 @@ video {
 .bg-transparent {
 	background-color: transparent;
 }
-.bg-primary_white_smoke {
-	--tw-bg-opacity: 1;
-	background-color: rgba(247, 247, 247, var(--tw-bg-opacity));
-}
 .bg-secondary {
 	--tw-bg-opacity: 1;
 	background-color: rgba(104, 186, 90, var(--tw-bg-opacity));
@@ -1032,9 +1045,13 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(224, 43, 32, var(--tw-bg-opacity));
 }
-.bg-gray-300 {
+.bg-primary_white_smoke {
 	--tw-bg-opacity: 1;
-	background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+	background-color: rgba(247, 247, 247, var(--tw-bg-opacity));
+}
+.bg-\[\#3F3F3F\] {
+	--tw-bg-opacity: 1;
+	background-color: rgba(63, 63, 63, var(--tw-bg-opacity));
 }
 .bg-black {
 	--tw-bg-opacity: 1;
@@ -1043,10 +1060,6 @@ video {
 .bg-primary_grey {
 	--tw-bg-opacity: 1;
 	background-color: rgba(100, 100, 100, var(--tw-bg-opacity));
-}
-.bg-\[\#3F3F3F\] {
-	--tw-bg-opacity: 1;
-	background-color: rgba(63, 63, 63, var(--tw-bg-opacity));
 }
 .bg-opacity-50 {
 	--tw-bg-opacity: 0.5;
@@ -1218,6 +1231,10 @@ video {
 	font-size: 3rem;
 	line-height: 1;
 }
+.text-xs {
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
 .font-bold {
 	font-weight: 700;
 }
@@ -1359,8 +1376,8 @@ video {
       font-weight: bold;
       border-width: 1px;
       border-radius: 9999px;
-      background: #a8c4a4;
-      color: white;
+      
+      color:  #a8c4a4;
     }
 .accordion input[type="checkbox"]:checked + label::after {
       content: "-";
@@ -1404,8 +1421,8 @@ video {
 	border-top-width: 0px;
 }
 
-.last\:border-b-4:last-child {
-	border-bottom-width: 4px;
+.last\:border-b:last-child {
+	border-bottom-width: 1px;
 }
 
 .even\:bg-secondary:nth-child(even) {
@@ -1493,6 +1510,11 @@ video {
 
 .group:hover .group-hover\:block {
 	display: block;
+}
+
+.group:hover .group-hover\:text-secondary {
+	--tw-text-opacity: 1;
+	color: rgba(104, 186, 90, var(--tw-text-opacity));
 }
 
 @media (min-width: 375px) {
@@ -1746,6 +1768,11 @@ video {
 		margin-bottom: 0px;
 	}
 
+	.lg\:mx-10 {
+		margin-left: 2.5rem;
+		margin-right: 2.5rem;
+	}
+
 	.lg\:mb-0 {
 		margin-bottom: 0px;
 	}
@@ -1756,10 +1783,6 @@ video {
 
 	.lg\:mb-10 {
 		margin-bottom: 2.5rem;
-	}
-
-	.lg\:mt-20 {
-		margin-top: 5rem;
 	}
 
 	.lg\:mb-8 {
@@ -1970,8 +1993,17 @@ video {
 
 @media (min-width: 1280px) {
 
+	.xl\:mx-16 {
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+
 	.xl\:-mt-32 {
 		margin-top: -8rem;
+	}
+
+	.xl\:-mt-40 {
+		margin-top: -10rem;
 	}
 
 	.xl\:w-\[22\%\] {
@@ -1994,6 +2026,15 @@ video {
 }
 
 @media (min-width: 1430px) {
+
+	.\32xl\:mx-16 {
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+
+	.\32xl\:-mt-32 {
+		margin-top: -8rem;
+	}
 
 	.\32xl\:max-w-screen-2xl {
 		max-width: 1430px;

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/guides/guides.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1643287970557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643288002155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n         <div class=\"w-full flex  flex-wrap\">\n             <?php foreach($guides as $guide) {?>\n-                <a href=\"<?php echo $guide['file'] ?>\">\n-                    <div class=\"w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] my-8  mx-4\">\n+                <a  class=\"w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] my-8  mx-4\" href=\"<?php echo $guide['file'] ?>\">\n+                    <div>\n                         <div class=\"w-full\">\n                             <div class=\"w-full\">\n                                 <img src=\"<?php echo $guide['image']['url'] ?>\" alt=\"\">\n                             </div>\n"
+                },
+                {
+                    "date": 1643288037393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,16 +6,16 @@\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n         <div class=\"w-full flex  flex-wrap\">\n             <?php foreach($guides as $guide) {?>\n-                <a  class=\"w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] my-8  mx-4\" href=\"<?php echo $guide['file'] ?>\">\n+                <a  class=\"group w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] my-8  mx-4\" href=\"<?php echo $guide['file'] ?>\">\n                     <div>\n                         <div class=\"w-full\">\n                             <div class=\"w-full\">\n                                 <img src=\"<?php echo $guide['image']['url'] ?>\" alt=\"\">\n                             </div>\n                             <div class=\"mt-8 w-full text-center\">\n-                                <h6 class=\"cursor-pointer hover:text-secondary\">\n+                                <h6 class=\"cursor-pointer group-hover:text-secondary\">\n                                     <?php echo $guide['title'] ?>\n                                 </h6>\n                             </div>\n                         </div>\n"
+                }
+            ],
+            "date": 1643287970557,
+            "name": "Commit-0",
+            "content": "<?php \n $guides = get_sub_field('guides');\n?>\n\n<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full \">\n    <div\n        class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n        <div class=\"w-full flex  flex-wrap\">\n            <?php foreach($guides as $guide) {?>\n                <a href=\"<?php echo $guide['file'] ?>\">\n                    <div class=\"w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] my-8  mx-4\">\n                        <div class=\"w-full\">\n                            <div class=\"w-full\">\n                                <img src=\"<?php echo $guide['image']['url'] ?>\" alt=\"\">\n                            </div>\n                            <div class=\"mt-8 w-full text-center\">\n                                <h6 class=\"cursor-pointer hover:text-secondary\">\n                                    <?php echo $guide['title'] ?>\n                                </h6>\n                            </div>\n                        </div>\n                    </div>\n                </a>\n            <?php }?>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}

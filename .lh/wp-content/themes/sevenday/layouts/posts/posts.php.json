@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1643198785059,
@@ -20,6 +20,26 @@
                 {
                     "date": 1643286628792,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n $posts_heading = get_sub_field('posts_heading');\n $posts = get_sub_field('posts');\n ?>\n \n-<div class=\"bg-gray-300 mt-10 sm:mt-14 md:mt-16 w-full jd-layout-y-spacing\">\n+<div class=\"bg-[#3F3F3F] mt-10 sm:mt-14 md:mt-16 w-full jd-layout-y-spacing\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  py-20 \">\n         <div class=\"w-full text-white\">\n             <div class=\"w-full flex justify-center\">\n"
+                },
+                {
+                    "date": 1643288831186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                             <!-- Will double glazing reduce noise from outside? -->\n                         </h6>\n                     </div>\n                     <div class=\"w-full mt-4 px-4\">\n-                        <div class=\"w-full flex text-sm justify-between text-primary\">\n+                        <div class=\"w-full flex text-xs font-light justify-between text-primary\">\n                             <p>\n                                 <?php echo $post['post_date'] ?>\n                             </p>\n                         </div>\n"
+                },
+                {
+                    "date": 1643288836574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                             <!-- Will double glazing reduce noise from outside? -->\n                         </h6>\n                     </div>\n                     <div class=\"w-full mt-4 px-4\">\n-                        <div class=\"w-full flex text-xs font-light justify-between text-primary\">\n+                        <div class=\"w-full flex text-xs font-light justify-between text-black\">\n                             <p>\n                                 <?php echo $post['post_date'] ?>\n                             </p>\n                         </div>\n"
+                },
+                {
+                    "date": 1643288847643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n                             </p>\n                         </div>\n                     </div>\n                     <div class=\"w-full px-4 mt-4 mb-4\">\n-                        <p class=\"hover:underline text-primary\">\n+                        <p class=\"hover:underline text-black\">\n                             <a href=\"<?php echo $post['post_link']['url'] ?>\">\n                                 <?php echo $post['post_paragraph'] ?>\n                             </a>\n \n"
+                },
+                {
+                    "date": 1643288931476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 <h4 class=\"text-3xl text-white font-bold\">\n                     <?php echo $posts_heading ?>\n                 </h4>\n             </div>\n-            <div class=\"mt-5 flex flex-wrap justify-between \">\n+            <div class=\"mt-5 flex flex-wrap justify-between jd-layout-y-spacing\">\n                 <?php foreach($posts as $post ) {?>\n                 <div class=\"w-full sm:w-[45%] lg:w-[30%] my-8 bg-white\">\n                     <div class=\"w-full text-primary\">\n                         <a href=\"<?php echo $post['post_link']['url'] ?>\">\n"
+                },
+                {
+                    "date": 1643288968973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 <h4 class=\"text-3xl text-white font-bold\">\n                     <?php echo $posts_heading ?>\n                 </h4>\n             </div>\n-            <div class=\"mt-5 flex flex-wrap justify-between jd-layout-y-spacing\">\n+            <div class=\"mt-5 flex flex-wrap justify-between jd-layout-y-spacing lg:mx-10\">\n                 <?php foreach($posts as $post ) {?>\n                 <div class=\"w-full sm:w-[45%] lg:w-[30%] my-8 bg-white\">\n                     <div class=\"w-full text-primary\">\n                         <a href=\"<?php echo $post['post_link']['url'] ?>\">\n"
                 }
             ],
             "date": 1643198785059,

@@ -92,8 +92,8 @@
       font-weight: bold;
       border-width: 1px;
       border-radius: 9999px;
-      background: #a8c4a4;
-      color: white;
+      
+      color:  #a8c4a4;
     }
 
     .accordion input[type="checkbox"]:checked + label::after {
