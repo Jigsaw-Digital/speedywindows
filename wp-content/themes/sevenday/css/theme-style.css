@@ -103,3 +103,15 @@
     }
   }
 }
+
+#gform_fields_1 input{
+  @apply border-b border-gray-300;
+}
+
+#gform_fields_1 textarea{
+  @apply border border-gray-300;
+}
+
+.jd-layout-y-spacing{
+  @apply my-5 lg:my-10 px-5 lg:px-0;
+}

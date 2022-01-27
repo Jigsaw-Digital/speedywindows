@@ -1,17 +1,17 @@
-<?php 
+<?php
     $tabs = get_sub_field('tabs');
 ?>
 
-<div class="bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10">
+<div class="bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
         <div class="flex flex-col md:flex-row relative z-0">
             <?php foreach($tabs as $key=>$tab) {?>
             <div
-                class="md:skew-tab md:py-2 text-center -mb-4 md:mb-0 border-t-2 border-white md:border-t-0 first:border-t-0 shadow-nav md:shadow-none">
+                class="md:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none">
                 <div id="tab-selector"
                     onclick="goToIndex(this, <?php echo $key ?>)"
-                    class="bg-primary_grey px-8 py-4 md:mr-1 hover:bg-white hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
+                    class="bg-primary_grey px-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
                     <?php echo $tab['tab_title']?></div>
             </div>
             <?php }?>
@@ -57,40 +57,14 @@
                             class="w-full flex flex-col md:flex-<?php echo $contentItem['content_direction'] === 'row' ?'row':'row-reverse' ?> justify-between items-stretch mb-8 pb-8 border-b border-link_water border-opacity-25">
 
                             <div style="height:inherit;"
-                                class="w-full md:w-[35%] lg:max-h-[400px]">
-                                <div style="height:100% !important;"
-                                    class="content-slider swiper-container h-full">
-                                    <div id="product-slider-inner swiper-container"
-                                        style="height:100% !important;"
-                                        class="swiper-wrapper h-full">
-                                        <?php foreach($contentItem['content_images'] as $contentImage) {?>
-                                        <div style="height:100% !important;"
-                                            class="swiper-slide h-full">
-                                            <div style="height:100% !important;"
-                                                class="w-full h-full">
-                                                <img class="w-full h-full object-contain"
-                                                    src="<?php echo $contentImage['content_image']['url'] ?>"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                        <?php }?>
-                                        <div class="swiper-button-prev">
-                                            <div
-                                                class="text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20">
-                                                <i
-                                                    class="fas fa-chevron-left"></i>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-button-next">
-                                            <div
-                                                class="text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20">
-                                                <i
-                                                    class="fas fa-chevron-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
+                                class="w-full md:w-[35%] lg:max-h-[400px] ">
+  
+                                <?php foreach($contentItem['content_images'] as $contentImage) {?>
+                                    <img class="w-full h-full object-contain py-10"
+                                            src="<?php echo $contentImage['content_image']['url'] ?>"
+                                            alt="">
+                                <?php }?>
 
-                                </div>
                             </div>
                             <div
                                 class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 bg-white z-10">
@@ -107,7 +81,7 @@
                                 <div class="mt-8 flex flex-wrap text-white">
                                     <?php foreach($contentItem['content_links'] as $link) {?>
                                     <a href="<?php echo $link['content_link']['url'] ?>"
-                                        class="my-1 uppercase mr-1 py-2 px-2 bg-primary text-white border-primary">
+                                        class="my-1 uppercase mr-1 py-2 px-2 bg-white text-primary border border-primary hover:text-white hover:bg-primary">
                                         <?php echo $link['content_link']['title'] ?>
                                     </a>
                                     <?php }?>

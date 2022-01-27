@@ -6,7 +6,7 @@ $posts_heading = get_sub_field('posts_heading');
 $posts = get_sub_field('posts');
 ?>
 
-<div class="bg-gray-300 mt-10 sm:mt-14 md:mt-16 w-full ">
+<div class="bg-gray-300 mt-10 sm:mt-14 md:mt-16 w-full jd-layout-y-spacing">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  py-20 ">
         <div class="w-full text-white">
@@ -29,7 +29,7 @@ $posts = get_sub_field('posts');
                     <?php echo $posts_heading ?>
                 </h4>
             </div>
-            <div class="mt-5 flex flex-wrap justify-between">
+            <div class="mt-5 flex flex-wrap justify-between ">
                 <?php foreach($posts as $post ) {?>
                 <div class="w-full sm:w-[45%] lg:w-[30%] my-8 bg-white">
                     <div class="w-full text-primary">

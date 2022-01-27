@@ -1,0 +1,42 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/image_cards/image_cards.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1643280865692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643280875745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,11 @@\n                     </div>\n                     <div\n                         class=\"w-full mt-4 flex flex-col justify-between h-full\">\n                         <div class=\"w-full mt-4\">\n-                            <h4 class=\"text-xl font-bold\">\n+                            <div class=\"text-xl font-bold\">\n                                 <?php echo $card['title'] ?>\n-                            </h4>\n+                            </div>\n                             <div class=\"w-full mt-4\">\n                                 <p><?php echo $card['paragraph'] ?>\n                                 </p>\n                             </div>\n"
+                },
+                {
+                    "date": 1643280891039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,11 @@\n                     </div>\n                     <div\n                         class=\"w-full mt-4 flex flex-col justify-between h-full\">\n                         <div class=\"w-full mt-4\">\n-                            <div class=\"text-xl font-bold\">\n+                            <h4 class=\"text-xl font-bold\">\n                                 <?php echo $card['title'] ?>\n-                            </div>\n+                            </h4>\n                             <div class=\"w-full mt-4\">\n                                 <p><?php echo $card['paragraph'] ?>\n                                 </p>\n                             </div>\n"
+                },
+                {
+                    "date": 1643280906252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n                             <h4 class=\"text-xl font-bold\">\n                                 <?php echo $card['title'] ?>\n                             </h4>\n                             <div class=\"w-full mt-4\">\n-                                <p><?php echo $card['paragraph'] ?>\n-                                </p>\n+                                <?php echo $card['paragraph'] ?>\n+                                \n                             </div>\n                         </div>\n \n                         <div class=\"w-full mt-4\">\n"
+                },
+                {
+                    "date": 1643280915958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n                             <h4 class=\"text-xl font-bold\">\n                                 <?php echo $card['title'] ?>\n                             </h4>\n                             <div class=\"w-full mt-4\">\n-                                <?php echo $card['paragraph'] ?>\n-                                \n+                                <p><?php echo $card['paragraph'] ?>\n+                                </p>\n                             </div>\n                         </div>\n \n                         <div class=\"w-full mt-4\">\n"
+                },
+                {
+                    "date": 1643281545199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                             </div>\n                         </div>\n \n                         <div class=\"w-full mt-4\">\n-                            <a class=\"bg-secondary hover:bg-secondary_hover text-white hover:text-secondary px-4 py-2\"\n+                            <a class=\"bg-white hover:bg-secondary text-secondary hover:text-white px-4 py-2\"\n                                 href=\"<?php echo $card['link']['url'] ?>\">\n                                 <?php echo $card['link']['title'] ?>\n                             </a>\n                         </div>\n"
+                },
+                {
+                    "date": 1643281554963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                             </div>\n                         </div>\n \n                         <div class=\"w-full mt-4\">\n-                            <a class=\"bg-white hover:bg-secondary text-secondary hover:text-white px-4 py-2\"\n+                            <a class=\"bg-white hover:bg-secondary text-secondary hover:text-white border border-secondarypx-4 py-2\"\n                                 href=\"<?php echo $card['link']['url'] ?>\">\n                                 <?php echo $card['link']['title'] ?>\n                             </a>\n                         </div>\n"
+                }
+            ],
+            "date": 1643280865692,
+            "name": "Commit-0",
+            "content": "<?php \n$section_heading = get_sub_field('section_heading');\n$image_cards = get_sub_field('image_cards');\n?>\n\n<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full \">\n    <div\n        class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  \">\n        <div class=\"w-full text-center\">\n            <h4 class=\"text-4xl text-secondary font-bold\">\n                <?php echo $section_heading ?>\n            </h4>\n        </div>\n        <div class=\"w-full flex  flex-wrap  mt-8\">\n            <?php foreach($image_cards as $card) {?>\n            <div\n                class=\"w-full sm:w-[45%] lg:w-[30%] p-8 border border-solid border-primary_white_smoke my-4 mx-4\">\n                <div class=\"w-full flex flex-col justify-between h-full\">\n                    <div class=\"w-full h-[300px] min-h-[300px] max-h-[300px]\">\n                        <img class=\"w-full h-full object-contain\"\n                            src=\"<?php echo $card['image']['url'] ?>\" alt=\"\">\n                    </div>\n                    <div\n                        class=\"w-full mt-4 flex flex-col justify-between h-full\">\n                        <div class=\"w-full mt-4\">\n                            <h4 class=\"text-xl font-bold\">\n                                <?php echo $card['title'] ?>\n                            </h4>\n                            <div class=\"w-full mt-4\">\n                                <p><?php echo $card['paragraph'] ?>\n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"w-full mt-4\">\n                            <a class=\"bg-secondary hover:bg-secondary_hover text-white hover:text-secondary px-4 py-2\"\n                                href=\"<?php echo $card['link']['url'] ?>\">\n                                <?php echo $card['link']['title'] ?>\n                            </a>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n            <?php }?>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}

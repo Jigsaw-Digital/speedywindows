@@ -33,7 +33,7 @@ $image_cards = get_sub_field('image_cards');
                         </div>
 
                         <div class="w-full mt-4">
-                            <a class="bg-secondary hover:bg-secondary_hover text-white hover:text-secondary px-4 py-2"
+                            <a class="bg-white hover:bg-secondary text-secondary hover:text-white border border-secondary px-4 py-2"
                                 href="<?php echo $card['link']['url'] ?>">
                                 <?php echo $card['link']['title'] ?>
                             </a>

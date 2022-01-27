@@ -1,0 +1,22 @@
+{
+    "sourceFile": "wp-content/themes/sevenday/layouts/search/search.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1643280535325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643280562907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n                 </p>\n             </div>\n             <div class=\"w-full lg:w-4/5 flex\">\n                 <div class=\"w-full\">\n-                    <input class=\"py-4 px-10 w-full\" type=\"text\" />\n+                    <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n                         class=\"px-6 py-4 bg-primary hover:bg-secondary_hover text-white hover:text-secondary font-bold\">Search</button>\n"
+                }
+            ],
+            "date": 1643280535325,
+            "name": "Commit-0",
+            "content": "<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full py-10\">\n    <div\n        class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  bg-white border border-secondary\">\n        <div\n            class=\"w-full text-center py-4 px-4 flex flex-col lg:flex-row lg:items-center\">\n            <div class=\"w-full lg:w-1/5 mb-4 lg:mb-0\">\n                <p>Enter a location or postcode\n                </p>\n            </div>\n            <div class=\"w-full lg:w-4/5 flex\">\n                <div class=\"w-full\">\n                    <input class=\"py-4 px-10 w-full\" type=\"text\" />\n                </div>\n                <div class=\"\">\n                    <button\n                        class=\"px-6 py-4 bg-primary hover:bg-secondary_hover text-white hover:text-secondary font-bold\">Search</button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}
