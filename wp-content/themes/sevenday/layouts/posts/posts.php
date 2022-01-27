@@ -6,7 +6,7 @@ $posts_heading = get_sub_field('posts_heading');
 $posts = get_sub_field('posts');
 ?>
 
-<div class="bg-gray-300 mt-10 sm:mt-14 md:mt-16 w-full jd-layout-y-spacing">
+<div class="bg-[#3F3F3F] mt-10 sm:mt-14 md:mt-16 w-full jd-layout-y-spacing">
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  py-20 ">
         <div class="w-full text-white">
