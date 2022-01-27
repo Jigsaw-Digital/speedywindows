@@ -161,7 +161,7 @@ function navToggle() {
 </script>
 
     <div class="relative bg-white z-0">
-        <div id="nav" class="z-50 shadow-nav mr-2">
+        <div id="nav" class="z-50 shadow-nav ">
             <div
                 class="text-black  bg-white w-full transition-all duration-200 ease-in">
                 <div id="nav_padding"

@@ -115,3 +115,11 @@
 .jd-layout-y-spacing{
   @apply my-5 lg:my-10 px-5 lg:px-0;
 }
+
+#field_1_11 .ginput_container_textarea{
+  @apply py-5;
+}
+
+#field_1_11 .gfield_label{
+  @apply pt-10;
+}

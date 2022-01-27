@@ -106,16 +106,16 @@
                                         class="mt-4 bg-white w-full border border-gray-200">
                                         <tbody class="table-row-group  ">
                                             <tr
-                                                class="table-row table-row-first-styles bg-primary">
+                                                class="table-row ">
                                                 <th
-                                                    class="text-left font-light text-white uppercase py-3 pl-2 pr-1 table-cell ">
+                                                    class="text-left font-light text-primary uppercase py-3 pl-2 pr-1 table-cell ">
                                                     <?php echo $table['table_heading'] ?>
                                                 </th>
                                                 <th></th>
                                             </tr>
                                             <?php foreach($table['table_rows'] as $row) {?>
                                             <tr
-                                                class="table-row table-row-first-styles bg-transparent even:bg-secondary">
+                                                class="table-row border border-grey-300 ">
                                                 <td
                                                     class="text-left py-2 pl-2 pr-1 table-cell ">
                                                     <?php echo $row['table_row_column_1'] ?>

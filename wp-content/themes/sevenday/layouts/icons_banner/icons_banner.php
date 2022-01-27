@@ -11,7 +11,7 @@
             class="w-full flex mx-auto  text-white flex-col md:flex-wrap lg:flex-row">
             <?php foreach($icons as $icon) {?>
             <div class="flex flex-row mx-auto py-2">
-                <span class="text-white text-2xl"><i
+                <span class="text-white text-3xl"><i
                         class="fas fa-<?php echo $icon['icon'] ?>"></i></span>
                 <span
                     class="mx-4 my-auto whitespace-nowrap text-primary_v1"><?php echo $icon['text'] ?></span>

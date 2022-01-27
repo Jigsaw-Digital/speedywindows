@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1643200421830,
@@ -20,6 +20,50 @@
                 {
                     "date": 1643288416763,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                         </div>\n                     </div>\n                 </div>\n             </div>\n-            <div class=\"w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0\">\n+            <div class=\"w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing\">\n                 <h2 class=\"text-5xl font-bold text-primary\"><?php echo $title ?>\n                 </h2>\n                 <div class=\"mt-4\">\n                     <?php foreach($paragraphs as $paragraph) {?>\n"
+                },
+                {
+                    "date": 1643291611358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n <script>\n var productSlider = new Swiper('.product-slider', {\n     allowTouchMove: true,\n     autoHeight: true,\n-    watchOverflow: true,\n+    watchOverflow: false,\n     navigation: {\n         nextEl: \".swiper-button-next\",\n         prevEl: \".swiper-button-prev\",\n     },\n"
+                },
+                {
+                    "date": 1643291659378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,8 +66,9 @@\n var productSlider = new Swiper('.product-slider', {\n     allowTouchMove: true,\n     autoHeight: true,\n     watchOverflow: false,\n+    loop: true,\n     navigation: {\n         nextEl: \".swiper-button-next\",\n         prevEl: \".swiper-button-prev\",\n     },\n"
+                },
+                {
+                    "date": 1643291668840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,10 +65,9 @@\n <script>\n var productSlider = new Swiper('.product-slider', {\n     allowTouchMove: true,\n     autoHeight: true,\n-    watchOverflow: false,\n-    loop: true,\n+    watchOverflow: true,\n     navigation: {\n         nextEl: \".swiper-button-next\",\n         prevEl: \".swiper-button-prev\",\n     },\n"
+                },
+                {
+                    "date": 1643291777154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,5 +72,36 @@\n         prevEl: \".swiper-button-prev\",\n     },\n     // loop: true,\n });\n+\n+\n+var productSlider = new Swiper('.product-slider', {\n+    speed: 400,\n+    spaceBetween: 100,\n+    navigation: {\n+        nextEl: \".swiper-button-next\",\n+        prevEl: \".swiper-button-prev\",\n+    }, \n+        pagination: { \n+            \n+            clickable: true,\n+            \n+        },\n+    // pagination: {\n+    //     el: \".swiper-pagination-contents\",\n+    //     clickable: true,\n+    //     renderBullet: function(index, className) {\n+    //          return '<span class=\"square ' + className + '\">'\n+    //         \"</span>\";\n+    //     },\n+    // },\n+});\n+\n+\n+\n+imageContentSLider.on('slideChange', function(slide) {\n+     console.log(slide)\n+\n+\n+});\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291783001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n });\n \n \n \n-imageContentSLider.on('slideChange', function(slide) {\n+productSlider.on('slideChange', function(slide) {\n      console.log(slide)\n \n \n });\n"
+                },
+                {
+                    "date": 1643291806531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,18 +62,8 @@\n     </div>\n </div>\n \n <script>\n-var productSlider = new Swiper('.product-slider', {\n-    allowTouchMove: true,\n-    autoHeight: true,\n-    watchOverflow: true,\n-    navigation: {\n-        nextEl: \".swiper-button-next\",\n-        prevEl: \".swiper-button-prev\",\n-    },\n-    // loop: true,\n-});\n \n \n var productSlider = new Swiper('.product-slider', {\n     speed: 400,\n"
+                },
+                {
+                    "date": 1643291843242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,36 +62,16 @@\n     </div>\n </div>\n \n <script>\n-\n-\n var productSlider = new Swiper('.product-slider', {\n-    speed: 400,\n-    spaceBetween: 100,\n+    allowTouchMove: true,\n+    autoHeight: true,\n+    watchOverflow: true,\n     navigation: {\n         nextEl: \".swiper-button-next\",\n         prevEl: \".swiper-button-prev\",\n-    }, \n-        pagination: { \n-            \n-            clickable: true,\n-            \n-        },\n-    // pagination: {\n-    //     el: \".swiper-pagination-contents\",\n-    //     clickable: true,\n-    //     renderBullet: function(index, className) {\n-    //          return '<span class=\"square ' + className + '\">'\n-    //         \"</span>\";\n-    //     },\n-    // },\n+    },\n+    // loop: true,\n });\n \n-\n-\n-productSlider.on('slideChange', function(slide) {\n-     console.log(slide)\n-\n-\n-});\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291880731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,19 +11,17 @@\n         <div\n             class=\"w-full flex flex-col md:flex-row justify-between items-center \">\n             <div style=\"\"\n                 class=\"w-full md:w-[35%] bg-secondary shadow-secondary rounded-sm p-10 border border-opacity-25 border-link_water\">\n-                <div style=\"\" class=\"product-slider swiper-container \">\n-                    <div id=\"product-slider-inner\" style=\"\"\n-                        class=\"swiper-wrapper \">\n+                \n                         <?php foreach($product_images as $productImage) {?>\n-                        <div style=\"\" class=\"swiper-slide  \">\n+                        \n                             <div style=\"\" class=\"w-full \">\n                                 <img class=\"w-full h-full object-contain\"\n                                     src=\"<?php echo $productImage['image']['url'] ?>\"\n                                     alt=\"\">\n                             </div>\n-                        </div>\n+                        \n                         <?php }?>\n                         <div class=\"swiper-button-prev\">\n                             <div\n                                 class=\"text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20\">\n@@ -35,10 +33,9 @@\n                                 class=\"text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20\">\n                                 <i class=\"fas fa-chevron-right\"></i>\n                             </div>\n                         </div>\n-                    </div>\n-                </div>\n+                    \n             </div>\n             <div class=\"w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing\">\n                 <h2 class=\"text-5xl font-bold text-primary\"><?php echo $title ?>\n                 </h2>\n"
+                },
+                {
+                    "date": 1643291892066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,29 +12,18 @@\n             class=\"w-full flex flex-col md:flex-row justify-between items-center \">\n             <div style=\"\"\n                 class=\"w-full md:w-[35%] bg-secondary shadow-secondary rounded-sm p-10 border border-opacity-25 border-link_water\">\n                 \n-                        <?php foreach($product_images as $productImage) {?>\n+                       \n                         \n                             <div style=\"\" class=\"w-full \">\n                                 <img class=\"w-full h-full object-contain\"\n                                     src=\"<?php echo $productImage['image']['url'] ?>\"\n                                     alt=\"\">\n                             </div>\n                         \n-                        <?php }?>\n-                        <div class=\"swiper-button-prev\">\n-                            <div\n-                                class=\"text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20\">\n-                                <i class=\"fas fa-chevron-left\"></i>\n-                            </div>\n-                        </div>\n-                        <div class=\"swiper-button-next\">\n-                            <div\n-                                class=\"text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20\">\n-                                <i class=\"fas fa-chevron-right\"></i>\n-                            </div>\n-                        </div>\n+                      \n+                        \n                     \n             </div>\n             <div class=\"w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing\">\n                 <h2 class=\"text-5xl font-bold text-primary\"><?php echo $title ?>\n"
+                },
+                {
+                    "date": 1643292107186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                        \n                         \n                             <div style=\"\" class=\"w-full \">\n                                 <img class=\"w-full h-full object-contain\"\n-                                    src=\"<?php echo $productImage['image']['url'] ?>\"\n+                                    src=\"<?php echo $productImages['url'] ?>\"\n                                     alt=\"\">\n                             </div>\n                         \n                       \n"
+                },
+                {
+                    "date": 1643292119634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                        \n                         \n                             <div style=\"\" class=\"w-full \">\n                                 <img class=\"w-full h-full object-contain\"\n-                                    src=\"<?php echo $productImages['url'] ?>\"\n+                                    src=\"<?php echo $product_images['url'] ?>\"\n                                     alt=\"\">\n                             </div>\n                         \n                       \n"
                 }
             ],
             "date": 1643200421830,

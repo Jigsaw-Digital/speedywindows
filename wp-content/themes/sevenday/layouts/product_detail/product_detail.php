@@ -12,32 +12,18 @@ $product_links = get_sub_field('product_links');
             class="w-full flex flex-col md:flex-row justify-between items-center ">
             <div style=""
                 class="w-full md:w-[35%] bg-secondary shadow-secondary rounded-sm p-10 border border-opacity-25 border-link_water">
-                <div style="" class="product-slider swiper-container ">
-                    <div id="product-slider-inner" style=""
-                        class="swiper-wrapper ">
-                        <?php foreach($product_images as $productImage) {?>
-                        <div style="" class="swiper-slide  ">
+                
+                       
+                        
                             <div style="" class="w-full ">
                                 <img class="w-full h-full object-contain"
-                                    src="<?php echo $productImage['image']['url'] ?>"
+                                    src="<?php echo $product_images['url'] ?>"
                                     alt="">
                             </div>
-                        </div>
-                        <?php }?>
-                        <div class="swiper-button-prev">
-                            <div
-                                class="text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20">
-                                <i class="fas fa-chevron-left"></i>
-                            </div>
-                        </div>
-                        <div class="swiper-button-next">
-                            <div
-                                class="text-white px-[10px] py-[7px] bg-black rounded-full flex items-center justify-center text-base bg-opacity-20">
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        
+                      
+                        
+                    
             </div>
             <div class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing">
                 <h2 class="text-5xl font-bold text-primary"><?php echo $title ?>
@@ -73,4 +59,5 @@ var productSlider = new Swiper('.product-slider', {
     },
     // loop: true,
 });
+
 </script>

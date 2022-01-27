@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 42,
+            "activePatchIndex": 46,
             "patches": [
                 {
                     "date": 1643199515499,
@@ -176,6 +176,22 @@
                 {
                     "date": 1643285279315,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n     $tabs = get_sub_field('tabs');\n ?>\n \n-<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10\">\n+<div class=\"bg-white my-10 sm:my-14 md:my-16 w-full overflow-y-hidden py-10 jd-layout-y-spacing\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl\">\n         <div class=\"flex flex-col md:flex-row relative z-0\">\n             <?php foreach($tabs as $key=>$tab) {?>\n"
+                },
+                {
+                    "date": 1643290226515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n                                                 <th></th>\n                                             </tr>\n                                             <?php foreach($table['table_rows'] as $row) {?>\n                                             <tr\n-                                                class=\"table-row table-row-first-styles bg-transparent even:bg-secondary\">\n+                                                class=\"table-row table-row-first-styles \">\n                                                 <td\n                                                     class=\"text-left py-2 pl-2 pr-1 table-cell \">\n                                                     <?php echo $row['table_row_column_1'] ?>\n                                                 </td>\n"
+                },
+                {
+                    "date": 1643290288370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,18 +105,18 @@\n                                     <table\n                                         class=\"mt-4 bg-white w-full border border-gray-200\">\n                                         <tbody class=\"table-row-group  \">\n                                             <tr\n-                                                class=\"table-row table-row-first-styles bg-primary\">\n+                                                class=\"table-row \">\n                                                 <th\n                                                     class=\"text-left font-light text-white uppercase py-3 pl-2 pr-1 table-cell \">\n                                                     <?php echo $table['table_heading'] ?>\n                                                 </th>\n                                                 <th></th>\n                                             </tr>\n                                             <?php foreach($table['table_rows'] as $row) {?>\n                                             <tr\n-                                                class=\"table-row table-row-first-styles \">\n+                                                class=\"table-row \">\n                                                 <td\n                                                     class=\"text-left py-2 pl-2 pr-1 table-cell \">\n                                                     <?php echo $row['table_row_column_1'] ?>\n                                                 </td>\n"
+                },
+                {
+                    "date": 1643290319766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,9 +107,9 @@\n                                         <tbody class=\"table-row-group  \">\n                                             <tr\n                                                 class=\"table-row \">\n                                                 <th\n-                                                    class=\"text-left font-light text-white uppercase py-3 pl-2 pr-1 table-cell \">\n+                                                    class=\"text-left font-light text-primary uppercase py-3 pl-2 pr-1 table-cell \">\n                                                     <?php echo $table['table_heading'] ?>\n                                                 </th>\n                                                 <th></th>\n                                             </tr>\n"
+                },
+                {
+                    "date": 1643290369143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n                                                 <th></th>\n                                             </tr>\n                                             <?php foreach($table['table_rows'] as $row) {?>\n                                             <tr\n-                                                class=\"table-row \">\n+                                                class=\"table-row border border-grey-300 \">\n                                                 <td\n                                                     class=\"text-left py-2 pl-2 pr-1 table-cell \">\n                                                     <?php echo $row['table_row_column_1'] ?>\n                                                 </td>\n"
                 }
             ],
             "date": 1643199515499,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 15,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -68,6 +68,26 @@
                 {
                     "date": 1643288620239,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,10 +91,10 @@\n       content: \"+\";\n       font-weight: bold;\n       border-width: 1px;\n       border-radius: 9999px;\n-      background: #a8c4a4;\n-      color: white;\n+      \n+      color:  #a8c4a4;\n     }\n \n     .accordion input[type=\"checkbox\"]:checked + label::after {\n       content: \"-\";\n"
+                },
+                {
+                    "date": 1643291209647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,5 +113,9 @@\n }\n \n .jd-layout-y-spacing{\n   @apply my-5 lg:my-10 px-5 lg:px-0;\n+}\n+\n+#field_1_11 label{\n+  @apply my-5;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291220236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,6 +116,6 @@\n   @apply my-5 lg:my-10 px-5 lg:px-0;\n }\n \n #field_1_11 label{\n-  @apply my-5;\n+  @apply py-5;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291251617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,7 +115,7 @@\n .jd-layout-y-spacing{\n   @apply my-5 lg:my-10 px-5 lg:px-0;\n }\n \n-#field_1_11 label{\n+#field_1_11 ginput_container_textarea{\n   @apply py-5;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291283651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,7 +115,11 @@\n .jd-layout-y-spacing{\n   @apply my-5 lg:my-10 px-5 lg:px-0;\n }\n \n-#field_1_11 ginput_container_textarea{\n+#field_1_11 .ginput_container_textarea{\n   @apply py-5;\n+}\n+\n+#field_1_11 .gfield_label{\n+  @apply py-5;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643291302640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,6 +120,6 @@\n   @apply py-5;\n }\n \n #field_1_11 .gfield_label{\n-  @apply py-5;\n+  @apply pt-10;\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1643199342977,

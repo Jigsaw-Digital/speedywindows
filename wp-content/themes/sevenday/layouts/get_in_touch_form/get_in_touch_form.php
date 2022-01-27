@@ -34,7 +34,7 @@
                             Our contact number
                         </h6>
                     </div>
-                    <div class=" w-full text-center mt-4 text-secondary">
+                    <div class=" w-full text-center mt-4 text-white hover:text-secondary">
                         <a href="tel:01443 777 333">
                             01443 777 333
                         </a>

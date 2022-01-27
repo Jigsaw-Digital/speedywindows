@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 126,
+            "activePatchIndex": 127,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -512,6 +512,10 @@
                 {
                     "date": 1643288774751,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n                                                 ?>\n \n                                                 <div class=\"w-[20%]\">\n                                                     <h6 class=\"uppercase\">\n-                                                        <a class=\"hover:text-secondary font-bold text-secondary\"\n+                                                        <a class=\"hover:text-secondary font-bold text-primary\"\n                                                             href=\"<?php echo $child_url ?>\"><?php echo $child_title ?></a>\n                                                     </h6>\n                                                     <?php if ($sub_children) { ?>\n                                                     <ul class=\"mt-4\">\n"
+                },
+                {
+                    "date": 1643290617791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n \n </script>\n \n     <div class=\"relative bg-white z-0\">\n-        <div id=\"nav\" class=\"z-50 shadow-nav mr-2\">\n+        <div id=\"nav\" class=\"z-50 shadow-nav \">\n             <div\n                 class=\"text-black  bg-white w-full transition-all duration-200 ease-in\">\n                 <div id=\"nav_padding\"\n                     class=\"w-full flex justify-between px-6 py-1 ctr xl:max-w-screen-xl 2xl:max-w-screen-2xl items-center\">\n"
                 }
             ],
             "date": 1643194225559,
