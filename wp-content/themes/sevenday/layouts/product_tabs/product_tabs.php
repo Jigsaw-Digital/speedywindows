@@ -11,7 +11,7 @@
                 class="md:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none">
                 <div id="tab-selector"
                     onclick="goToIndex(this, <?php echo $key ?>)"
-                    class="bg-primary_grey px-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
+                    class="bg-primary_grey pr-10 pl-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap">
                     <?php echo $tab['tab_title']?></div>
             </div>
             <?php }?>

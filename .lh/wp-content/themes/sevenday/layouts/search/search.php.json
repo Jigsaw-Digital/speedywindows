@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1643280535325,
@@ -24,6 +24,10 @@
                 {
                     "date": 1643293758236,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n-                        class=\"px-6 py-4 mx-5 text-primary bg-white hover:text-white hover:bg-primary border border-primary font-bold\">Search</button>\n+                        class=\"px-6 py-4 mx-5 text-secondary bg-white hover:text-white hover:bg-secondary border border-secondary font-bold\">Search</button>\n                 </div>\n             </div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643294806715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <div class=\"bg-white my-10 sm:my-14 md:my-16 w-full py-10\">\n     <div\n         class=\"w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  bg-white border border-secondary\">\n         <div\n-            class=\"w-full text-center py-4 px-4 flex flex-col lg:flex-row lg:items-center\">\n+            class=\"w-full text-center py-4 px-4 flex flex-wrap  lg:items-center\">\n             <div class=\"w-full lg:w-1/5 mb-4 lg:mb-0\">\n                 <p>Enter a location or postcode\n                 </p>\n             </div>\n"
                 }
             ],
             "date": 1643280535325,

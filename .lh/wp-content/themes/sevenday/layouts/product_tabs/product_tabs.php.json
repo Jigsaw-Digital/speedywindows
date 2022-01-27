@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 46,
+            "activePatchIndex": 48,
             "patches": [
                 {
                     "date": 1643199515499,
@@ -192,6 +192,14 @@
                 {
                     "date": 1643290369143,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n                                                 <th></th>\n                                             </tr>\n                                             <?php foreach($table['table_rows'] as $row) {?>\n                                             <tr\n-                                                class=\"table-row \">\n+                                                class=\"table-row border border-grey-300 \">\n                                                 <td\n                                                     class=\"text-left py-2 pl-2 pr-1 table-cell \">\n                                                     <?php echo $row['table_row_column_1'] ?>\n                                                 </td>\n"
+                },
+                {
+                    "date": 1643296799080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <div\n                 class=\"md:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none\">\n                 <div id=\"tab-selector\"\n                     onclick=\"goToIndex(this, <?php echo $key ?>)\"\n-                    class=\"bg-primary_grey px-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap\">\n+                    class=\"bg-primary_grey pl-10 pr-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap\">\n                     <?php echo $tab['tab_title']?></div>\n             </div>\n             <?php }?>\n         </div>\n"
+                },
+                {
+                    "date": 1643296818607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <div\n                 class=\"md:skew-tab md:py-2 text-center mb-4 md:mb-0 border-t-2 border-white  md:border-t-0 first:border-t-0 shadow-nav md:shadow-none\">\n                 <div id=\"tab-selector\"\n                     onclick=\"goToIndex(this, <?php echo $key ?>)\"\n-                    class=\"bg-primary_grey pl-10 pr-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap\">\n+                    class=\"bg-primary_grey pr-10 pl-8 py-4 md:mr-1 hover:bg-gray-200 hover:text-primary cursor-pointer text-white overflow-ellipsis whitespace-nowrap\">\n                     <?php echo $tab['tab_title']?></div>\n             </div>\n             <?php }?>\n         </div>\n"
                 }
             ],
             "date": 1643199515499,

@@ -273,7 +273,7 @@ function navToggle() {
                         </ul>
                         
                     </div>
-                    <div class="w-1/2 my-auto block md:hidden " >  
+                    <div class="w-1/2 my-auto block lg:hidden " >  
                         <div class="flex flex-row float-right">
                             <a href="tel:01604 791 791" class="text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mx-2"><i class=" fas fa-phone "></i></a>
                             <button id="menuBtn" class="w-1/2 hamburger focus:outline-none my-auto mx-2 " type="button" onclick="navToggle();">

@@ -123,3 +123,33 @@
 #field_1_11 .gfield_label{
   @apply pt-10;
 }
+
+#gform_submit_button_1{
+  @apply bg-white border-white text-secondary hover:bg-secondary hover:text-white border border-secondary;
+}
+
+#gform_fields_1{
+  @apply flex flex-wrap justify-between;
+}
+
+#field_1_2{
+  @apply w-full lg:w-[45%];
+}
+
+#field_1_3{
+  @apply w-full lg:w-[45%];
+}
+
+#field_1_9{
+  @apply w-full lg:w-[45%];
+}
+
+#field_1_10{
+  @apply w-full lg:w-[45%];
+}
+#field_1_12{
+  @apply w-full lg:w-[45%];
+}
+#field_1_15{
+  @apply w-full lg:w-[45%];
+}

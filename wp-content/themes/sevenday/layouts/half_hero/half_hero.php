@@ -27,7 +27,7 @@
         </div>
         <div class="w-full lg:w-1/2 lg:mb-10 mt-20">
             <?php foreach($right_column as $right) {?>
-            <div class="w-3/4 mx-auto my-10 bg-secondary text-white p-5 ">
+            <div class="w-3/4 mx-auto my-10 bg-[#3F3F3F] text-white p-5 ">
                 <div class=" text-2xl">
                     <?php echo $right['title']?>
                 </div>

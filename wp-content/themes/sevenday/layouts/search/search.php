@@ -2,7 +2,7 @@
     <div
         class="w-full ctr xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl  bg-white border border-secondary">
         <div
-            class="w-full text-center py-4 px-4 flex flex-col lg:flex-row lg:items-center">
+            class="w-full text-center py-4 px-4 flex flex-wrap  lg:items-center">
             <div class="w-full lg:w-1/5 mb-4 lg:mb-0">
                 <p>Enter a location or postcode
                 </p>
