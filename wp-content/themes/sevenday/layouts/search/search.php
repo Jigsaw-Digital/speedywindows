@@ -13,7 +13,7 @@
                 </div>
                 <div class="">
                     <button
-                        class="px-6 py-4 bg-primary hover:bg-secondary_hover text-white hover:text-secondary font-bold">Search</button>
+                        class="px-6 py-4 mx-5 text-secondary bg-white hover:text-white hover:bg-secondary border border-secondary font-bold">Search</button>
                 </div>
             </div>
         </div>

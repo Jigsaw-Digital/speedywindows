@@ -12,18 +12,13 @@ $product_links = get_sub_field('product_links');
             class="w-full flex flex-col md:flex-row justify-between items-center ">
             <div style=""
                 class="w-full md:w-[35%] bg-secondary shadow-secondary rounded-sm p-10 border border-opacity-25 border-link_water">
-                
-                       
-                        
-                            <div style="" class="w-full ">
-                                <img class="w-full h-full object-contain"
-                                    src="<?php echo $product_images['url'] ?>"
-                                    alt="">
-                            </div>
-                        
-                      
-                        
-                    
+
+                <div style="" class="w-full ">
+                    <img class="w-full h-full object-contain"
+                        src="<?php echo $product_images['url'] ?>"
+                        alt="">
+                </div>
+
             </div>
             <div class="w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing">
                 <h2 class="text-5xl font-bold text-primary"><?php echo $title ?>

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1643200421830,
@@ -64,6 +64,10 @@
                 {
                     "date": 1643292119634,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                        \n                         \n                             <div style=\"\" class=\"w-full \">\n                                 <img class=\"w-full h-full object-contain\"\n-                                    src=\"<?php echo $productImages['url'] ?>\"\n+                                    src=\"<?php echo $product_images['url'] ?>\"\n                                     alt=\"\">\n                             </div>\n                         \n                       \n"
+                },
+                {
+                    "date": 1643293118525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,20 +11,15 @@\n         <div\n             class=\"w-full flex flex-col md:flex-row justify-between items-center \">\n             <div style=\"\"\n                 class=\"w-full md:w-[35%] bg-secondary shadow-secondary rounded-sm p-10 border border-opacity-25 border-link_water\">\n-                \n-                       \n-                        \n-                            <div style=\"\" class=\"w-full \">\n-                                <img class=\"w-full h-full object-contain\"\n-                                    src=\"<?php echo $product_images['url'] ?>\"\n-                                    alt=\"\">\n-                            </div>\n-                        \n-                      \n-                        \n-                    \n+\n+                <div style=\"\" class=\"w-full \">\n+                    <img class=\"w-full h-full object-contain\"\n+                        src=\"<?php echo $product_images['url'] ?>\"\n+                        alt=\"\">\n+                </div>\n+\n             </div>\n             <div class=\"w-full md:w-[65%] md:px-6 lg:px-14 mt-4 md:mt-0 jd-layout-y-spacing\">\n                 <h2 class=\"text-5xl font-bold text-primary\"><?php echo $title ?>\n                 </h2>\n"
                 }
             ],
             "date": 1643200421830,

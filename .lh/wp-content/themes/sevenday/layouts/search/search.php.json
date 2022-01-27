@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1643280535325,
@@ -12,6 +12,18 @@
                 {
                     "date": 1643280562907,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n                 </p>\n             </div>\n             <div class=\"w-full lg:w-4/5 flex\">\n                 <div class=\"w-full\">\n-                    <input class=\"py-4 px-10 w-full\" type=\"text\" />\n+                    <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n                         class=\"px-6 py-4 bg-primary hover:bg-secondary_hover text-white hover:text-secondary font-bold\">Search</button>\n"
+                },
+                {
+                    "date": 1643293697824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n-                        class=\"px-6 py-4 bg-primary hover:bg-secondary_hover text-white hover:text-secondary font-bold\">Search</button>\n+                        class=\"px-6 py-4 text-primary bg-white hover:text-white hover:bg-primary border border-primary font-bold\">Search</button>\n                 </div>\n             </div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643293712320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n-                        class=\"px-6 py-4 text-primary bg-white hover:text-white hover:bg-primary border border-primary font-bold\">Search</button>\n+                        class=\"px-6 py-4 mx-5 text-primary bg-white hover:text-white hover:bg-primary border border-primary font-bold\">Search</button>\n                 </div>\n             </div>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1643293758236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                     <input class=\"py-4 px-10 w-full border-b border-gray-200\" type=\"text\" />\n                 </div>\n                 <div class=\"\">\n                     <button\n-                        class=\"px-6 py-4 mx-5 text-primary bg-white hover:text-white hover:bg-primary border border-primary font-bold\">Search</button>\n+                        class=\"px-6 py-4 mx-5 text-secondary bg-white hover:text-white hover:bg-secondary border border-secondary font-bold\">Search</button>\n                 </div>\n             </div>\n         </div>\n     </div>\n"
                 }
             ],
             "date": 1643280535325,
