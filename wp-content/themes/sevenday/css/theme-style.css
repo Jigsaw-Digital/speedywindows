@@ -133,23 +133,23 @@
 }
 
 #field_1_2{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }
 
 #field_1_3{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }
 
 #field_1_9{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }
 
 #field_1_10{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }
 #field_1_12{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }
 #field_1_15{
-  @apply w-full lg:w-[45%];
+  @apply w-full md:w-[45%];
 }

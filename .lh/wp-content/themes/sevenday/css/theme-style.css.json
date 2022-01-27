@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 37,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -152,6 +152,10 @@
                 {
                     "date": 1643296604289,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,5 +148,8 @@\n   @apply w-full lg:w-[45%];\n }\n #field_1_12{\n   @apply w-full lg:w-[45%];\n+}\n+#field_1_15{\n+  @apply w-full lg:w-[45%];\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643297688388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,24 +132,24 @@\n   @apply flex flex-wrap justify-between;\n }\n \n #field_1_2{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n \n #field_1_3{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n \n #field_1_9{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n \n #field_1_10{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n #field_1_12{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n #field_1_15{\n-  @apply w-full lg:w-[45%];\n+  @apply w-full md:w-[45%];\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1643199342977,
