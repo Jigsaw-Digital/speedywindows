@@ -174,7 +174,7 @@ function navToggle() {
                                     src="<?php echo bloginfo('template_url') ?>/assets/img/speedy-windows-logo.png"
                                     alt="" title="speedy-windows-logo"
                                     height="auto" width="auto"
-                                    class="w-1/2 lg:w-full object-cover transition-all duration-200 ease-in py-4">
+                                    class="w-1/2 sm:w-3/4 lg:w-full object-cover transition-all duration-200 ease-in py-4">
                             </a>
                         </div>
                     </div>

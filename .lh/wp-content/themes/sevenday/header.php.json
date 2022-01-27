@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 150,
+            "activePatchIndex": 152,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -608,6 +608,14 @@
                 {
                     "date": 1643297432739,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -275,9 +275,9 @@\n                     </div>\n                     <div class=\"w-1/2 my-auto block lg:hidden \" >  \n                         <div class=\"flex flex-row float-right\">\n                             <a href=\"tel:01604 791 791\" class=\"text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mx-2\"><i class=\" fas fa-phone \"></i></a>\n-                            <a href=\"mailto:info@tradewindowwarehouse.co.uk\" class=\"text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl   mr-2\"><i class=\"fas fa-envelope \"></i></a>\n+                            <a href=\"mailto:info@tradewindowwarehouse.co.uk\" class=\"text-right w-1/2 my-auto  text-primary hover:text-tertiary text-xl mr-2 \"><i class=\"fas fa-envelope \"></i></a>\n                             <button id=\"menuBtn\" class=\"w-1/2 hamburger focus:outline-none my-auto mx-2 \" type=\"button\" onclick=\"navToggle();\">\n                                 <span class=\"hamburger__top-bun\"></span><span class=\"hamburger__middle-bun\"></span><span class=\"hamburger__bottom-bun\"></span>\n                             </button>\n                         </div>\n"
+                },
+                {
+                    "date": 1643297584822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,9 @@\n                                 <img loading=\"lazy\"\n                                     src=\"<?php echo bloginfo('template_url') ?>/assets/img/speedy-windows-logo.png\"\n                                     alt=\"\" title=\"speedy-windows-logo\"\n                                     height=\"auto\" width=\"auto\"\n-                                    class=\"w-1/2 lg:w-full object-cover transition-all duration-200 ease-in py-4\">\n+                                    class=\"w-3/4 lg:w-full object-cover transition-all duration-200 ease-in py-4\">\n                             </a>\n                         </div>\n                     </div>\n                     <div class=\"w-[80%] hidden lg:flex \">\n"
+                },
+                {
+                    "date": 1643297597386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,9 @@\n                                 <img loading=\"lazy\"\n                                     src=\"<?php echo bloginfo('template_url') ?>/assets/img/speedy-windows-logo.png\"\n                                     alt=\"\" title=\"speedy-windows-logo\"\n                                     height=\"auto\" width=\"auto\"\n-                                    class=\"w-3/4 lg:w-full object-cover transition-all duration-200 ease-in py-4\">\n+                                    class=\"w-1/2 sm:w-3/4 lg:w-full object-cover transition-all duration-200 ease-in py-4\">\n                             </a>\n                         </div>\n                     </div>\n                     <div class=\"w-[80%] hidden lg:flex \">\n"
                 }
             ],
             "date": 1643194225559,
