@@ -5,3 +5,8 @@ nbproject/
 .htaccess
 node_modules
 /wp-content/themes/*/inc/vendor
+.lh/wp-content/themes/sevenday/layouts/hero_form/hero_form.php.json
+.lh/wp-content/themes/sevenday/layouts/hero_form/acf.json.json
+.lh/wp-content/themes/sevenday/css/theme-style.css.json
+.lh/wp-content/themes/sevenday/css/custom.css.json
+.lh/wp-content/themes/sevenday/acf-json/group_620e5f680a683.json.json

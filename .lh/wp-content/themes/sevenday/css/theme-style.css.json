@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 50,
+            "activePatchIndex": 73,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -208,6 +208,98 @@
                 {
                     "date": 1643300334252,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,8 +156,5 @@\n   @apply w-full md:w-[45%];\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n-}\n-.pt-4 {\n-  padding-top: 1rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645110652237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,5 +156,9 @@\n   @apply w-full md:w-[45%];\n }\n #field_1_15{\n   @apply w-full md:w-[45%];\n+}\n+\n+#gform_fields_2  #field_2_1{\n+  @apply hidden;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645110663698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,7 +158,7 @@\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n \n-#gform_fields_2  #field_2_1{\n+#gform_fields_2  label{\n   @apply hidden;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645111150086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,5 +160,8 @@\n }\n \n #gform_fields_2  label{\n   @apply hidden;\n+}\n+.gform_title{\n+  display:block;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645111618509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -163,5 +163,9 @@\n   @apply hidden;\n }\n .gform_title{\n   display:block;\n+}\n+\n+#gform_wrapper_2 .gform_footer{\n+  @apply mx-auto\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645111651856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,6 +166,6 @@\n   display:block;\n }\n \n #gform_wrapper_2 .gform_footer{\n-  @apply mx-auto\n+  @apply w-full;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645111670538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,7 +165,7 @@\n .gform_title{\n   display:block;\n }\n \n-#gform_wrapper_2 .gform_footer{\n+#gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112171309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,6 +166,6 @@\n   display:block;\n }\n \n #gform_wrapper_2 #gform_submit_button_2{\n-  @apply w-full;\n+  @apply w-full bg-[##8ce87d];\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112183376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,6 +166,6 @@\n   display:block;\n }\n \n #gform_wrapper_2 #gform_submit_button_2{\n-  @apply w-full bg-[##8ce87d];\n+  @apply w-full .bg-tertiary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112198120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,6 +166,6 @@\n   display:block;\n }\n \n #gform_wrapper_2 #gform_submit_button_2{\n-  @apply w-full .bg-tertiary;\n+  @apply w-full bg-tertiary hover:bg-primary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112237615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,5 +167,8 @@\n }\n \n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n+}\n+#gform_fields_2 {\n+  @apply rounded;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112263168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,7 +168,7 @@\n \n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n-#gform_fields_2 {\n+#gform_wrapper_2 {\n   @apply rounded;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112290276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,6 +169,6 @@\n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n #gform_wrapper_2 {\n-  @apply rounded;\n+  @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112315649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,7 +168,7 @@\n \n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n-#gform_wrapper_2 {\n+#gform_wrapper_2 #ginput_container{\n   @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112362104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,7 +168,7 @@\n \n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n-#gform_wrapper_2 #ginput_container{\n+#gform_wrapper_2 .ginput_container{\n   @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112374277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,7 +168,7 @@\n \n #gform_wrapper_2 #gform_submit_button_2{\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n-#gform_wrapper_2 .ginput_container{\n+#gform_wrapper_2 .ginput_container input{\n   @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112436845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,5 +170,8 @@\n   @apply w-full bg-tertiary hover:bg-primary;\n }\n #gform_wrapper_2 .ginput_container input{\n   @apply rounded-lg ;\n+}\n+#gform_wrapper_2 .ginput_button input{\n+  @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112451366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,7 +171,7 @@\n }\n #gform_wrapper_2 .ginput_container input{\n   @apply rounded-lg ;\n }\n-#gform_wrapper_2 .ginput_button input{\n+#gform_wrapper_2 .gform_button input{\n   @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112458951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,7 +171,7 @@\n }\n #gform_wrapper_2 .ginput_container input{\n   @apply rounded-lg ;\n }\n-#gform_wrapper_2 .gform_button input{\n+#gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645112512659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,5 +173,8 @@\n   @apply rounded-lg ;\n }\n #gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n-}\n\\ No newline at end of file\n+}\n+#gform_wrapper_2 .gform_title {\n+  @apply rounded-lg ;\n+}\n"
+                },
+                {
+                    "date": 1645112521252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,6 +175,6 @@\n #gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n }\n #gform_wrapper_2 .gform_title {\n-  @apply rounded-lg ;\n+  @apply text-center text-white ;\n }\n"
+                },
+                {
+                    "date": 1645112532843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,6 +175,6 @@\n #gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n }\n #gform_wrapper_2 .gform_title {\n-  @apply text-center text-white ;\n+  @apply text-center text-white text-3xl ;\n }\n"
+                },
+                {
+                    "date": 1645112547745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,6 +175,6 @@\n #gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n }\n #gform_wrapper_2 .gform_title {\n-  @apply text-center text-white text-3xl ;\n+  @apply text-center text-white text-3xl py-5 ;\n }\n"
+                },
+                {
+                    "date": 1645112556038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,6 +175,6 @@\n #gform_wrapper_2 .gform_button {\n   @apply rounded-lg ;\n }\n #gform_wrapper_2 .gform_title {\n-  @apply text-center text-white text-3xl py-5 ;\n+  @apply text-center text-white text-3xl pb-5 ;\n }\n"
                 }
             ],
             "date": 1643199342977,
