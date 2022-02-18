@@ -159,7 +159,7 @@
   @apply w-full md:w-[45%];
 }
 
-#gform_fields_2  label{
+.hero_form .gform_wrapper  label{
   @apply hidden;
 }
 .gform_title{
@@ -167,14 +167,9 @@
 }
 
 #gform_wrapper_2 #gform_submit_button_2{
-  @apply w-full bg-tertiary hover:bg-primary;
+  @apply w-full bg-primary hover:bg-white hover:text-primary border border-primary;
 }
-#gform_wrapper_2 .ginput_container input{
-  @apply rounded-lg ;
-}
-#gform_wrapper_2 .gform_button {
-  @apply rounded-lg ;
-}
-#gform_wrapper_2 .gform_title {
-  @apply text-center text-white text-3xl pb-5 ;
+
+.hero_form .gform_wrapper .gform_title {
+  @apply text-center text-white text-3xl pb-5 uppercase;
 }

@@ -12,7 +12,7 @@
 
 <div class="relative w-full  bg-cover bg-no-repeat p-5 2xl:p-0 "style="background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('<?php echo $background_image['url']?>'); background-position-y: center;">
     <div class="container m-auto flex flex-wrap py-8 sm:py-16 lg:py-40">
-        <div class="w-full lg:w-1/2 text-white uppercase container flex flex-col px-0 lg:px-10">
+        <div class="w-full lg:w-1/2 text-white uppercase container flex flex-col px-0 lg:px-10 my-10  lg:my-auto">
             <div class=" text-3xl lg:text-5xl "><?php echo $title?></div>
             <div class="text-xl lg:text-2xl mb-4"><?php echo $sub_text?></div>
             <div class="text-sm lg:text-base w-full my-4"><?php echo $paragraph?></div>
@@ -22,7 +22,7 @@
             </a>
             
         </div>
-        <div class="w-full lg:w-1/3 bg-[#3F3F3F] rounded-lg container mx-auto my-auto p-10 my-10 lg:my-0 ">
+        <div class="w-full lg:w-1/3 bg-[#3F3F3F] rounded-lg container m-auto p-10 hero_form">
             <?php echo do_shortcode('[gravityform id="2" title="false" title="true" description="true"]') ?>
         </div>
     </div>
