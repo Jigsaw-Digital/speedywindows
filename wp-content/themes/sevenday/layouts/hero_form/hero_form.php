@@ -44,25 +44,23 @@
         </div>
     </div>
     <div class="hidden lg:block lg:w-2/6 uppercase -mt-60 lg:-mt-48 xl:-mt-40 2xl:-mt-32 ">
-        <div class="mx-8 2xl:mx-16   bg-[#3F3F3F] text-white p-5 ">
-        <?php if( get_field('banner_title') ): ?>
-            <div class="text-2xl my-3"><?php the_field('banner_title'); ?></div>
+    <?php 
+
+            $banner_title = get_sub_field('banner_title');
+            $banner_paragraph = get_sub_field('banner_paragraph');
+
+            if( !empty($banner_paragraph) || !empty($banner_title)): ?>
+            <div class="mx-8 2xl:mx-16   bg-[#3F3F3F] text-white p-5 ">
+                <div class="text-2xl my-3"><?php echo $banner_title ?></div>
+                <div><?php echo $banner_paragraph ?></div>
+            </div>
         <?php endif; ?>
-        <?php if( get_field('banner_paragraph') ): ?>
-            <div class=""><?php the_field('banner_paragraph'); ?></div>
-        <?php endif; ?>
-            
-        </div>
     </div>
     
 </div>
 <div class="block lg:hidden w-full uppercase ">
         <div class="bg-[#3F3F3F] text-white p-5">
-        <?php if( get_field('banner_title') ): ?>
-            <div class="text-2xl my-3"><?php the_field('banner_title'); ?></div>
-        <?php endif; ?>
-        <?php if( get_field('banner_paragraph') ): ?>
-            <div class=""><?php the_field('banner_paragraph'); ?></div>
-        <?php endif; ?>
+            <div class="text-2xl my-3"><?php echo $banner_title ?></div>
+            <div><?php echo $banner_paragraph ?></div>
         </div>
     </div>
