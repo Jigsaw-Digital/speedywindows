@@ -58,9 +58,17 @@
     </div>
     
 </div>
-<div class="block lg:hidden w-full uppercase ">
-        <div class="bg-[#3F3F3F] text-white p-5">
-            <div class="text-2xl my-3"><?php echo $banner_title ?></div>
-            <div><?php echo $banner_paragraph ?></div>
-        </div>
+
+    <div class="block lg:hidden w-full uppercase ">
+    <?php 
+
+            $banner_title = get_sub_field('banner_title');
+            $banner_paragraph = get_sub_field('banner_paragraph');
+
+            if( !empty($banner_paragraph) || !empty($banner_title)): ?>
+            <div class="  bg-[#3F3F3F] text-white p-5 ">
+                <div class="text-2xl my-3"><?php echo $banner_title ?></div>
+                <div><?php echo $banner_paragraph ?></div>
+            </div>
+        <?php endif; ?>
     </div>
