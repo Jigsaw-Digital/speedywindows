@@ -191,7 +191,7 @@ function navToggle() {
                                 <?php if ($children) { ?>
 
                                 <div
-                                    class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize">
+                                    class="absolute w-screen top-[86px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize">
                                     <div class="w-full bg-gray-200 py-8 ">
                                         <div class="">
                                             <div
