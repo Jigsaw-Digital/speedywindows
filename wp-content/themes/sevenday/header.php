@@ -193,7 +193,7 @@ function navToggle() {
                                 <div
                                     class="absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize">
                                     <div class="w-full bg-gray-200 py-8 ">
-                                        <div class="ctr xl:max-w-screen-xl">
+                                        <div class="">
                                             <div
                                                 class="container mx-auto flex flex-row justify-center">
                                                 <?php foreach ($children as $child) { ?>
