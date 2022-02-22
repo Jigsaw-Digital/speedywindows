@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 176,
+            "activePatchIndex": 181,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -712,6 +712,26 @@
                 {
                     "date": 1645535176215,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n                                     href=\"<?php echo $url ?>\"><?php echo $title ?></a>\n                                 <?php if ($children) { ?>\n \n                                 <div\n-                                    class=\"absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize\">\n+                                    class=\"absolute w-screen top-[86px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize\">\n                                     <div class=\"w-full bg-gray-200 py-8 \">\n                                         <div class=\"\">\n                                             <div\n                                                 class=\"container mx-auto flex flex-row justify-between\">\n"
+                },
+                {
+                    "date": 1645535605929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,9 +320,11 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"fas fa-chevron-down transform transition-all ease-in duration-200\"></i>\n+                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n+  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n+</svg></i>\n                                 </div>\n                                 <?php } ?>\n                             </div>\n                             <?php if ($children) { ?>\n"
+                },
+                {
+                    "date": 1645535663237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,9 +320,9 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n+                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\"  stroke=\"currentColor\">\n   <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n </svg></i>\n                                 </div>\n                                 <?php } ?>\n"
+                },
+                {
+                    "date": 1645535707703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,9 +320,9 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\"  stroke=\"currentColor\">\n+                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"\" fill=\"none\"  stroke=\"currentColor\">\n   <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n </svg></i>\n                                 </div>\n                                 <?php } ?>\n"
+                },
+                {
+                    "date": 1645535714302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,9 +320,9 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"\" fill=\"none\"  stroke=\"currentColor\">\n+                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n   <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n </svg></i>\n                                 </div>\n                                 <?php } ?>\n"
+                },
+                {
+                    "date": 1645535748043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,11 +320,9 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n-  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n-</svg></i>\n+                                        class=\"fas fa-chevron-down transform transition-all ease-in duration-200\"></i>\n                                 </div>\n                                 <?php } ?>\n                             </div>\n                             <?php if ($children) { ?>\n"
                 }
             ],
             "date": 1643194225559,
