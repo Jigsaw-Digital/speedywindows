@@ -195,7 +195,7 @@ function navToggle() {
                                     <div class="w-full bg-gray-200 py-8 ">
                                         <div class="">
                                             <div
-                                                class="container mx-auto flex flex-row justify-center">
+                                                class="container mx-auto flex flex-row justify-between">
                                                 <?php foreach ($children as $child) { ?>
                                                 <?php $child_title = $child->title;
                                                     $child_url = $child->url;
