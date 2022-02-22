@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 164,
+            "activePatchIndex": 166,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -664,6 +664,14 @@
                 {
                     "date": 1645523084367,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,9 @@\n                                     class=\"absolute w-screen top-[87px] left-0 py-6 bg-transparent hidden group-hover:block z-10 capitalize\">\n                                     <div class=\"w-full bg-gray-200 py-8 \">\n                                         <div class=\"ctr xl:max-w-screen-xl\">\n                                             <div\n-                                                class=\"w-full flex flex-row justify-between \">\n+                                                class=\"w-full flex flex-row justify-center \">\n                                                 <?php foreach ($children as $child) { ?>\n                                                 <?php $child_title = $child->title;\n                                                     $child_url = $child->url;\n                                                     $sub_children = $child->wpse_children;\n"
+                },
+                {
+                    "date": 1645523144898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n                                                     $child_url = $child->url;\n                                                     $sub_children = $child->wpse_children;\n                                                 ?>\n \n-                                                <div class=\"\">\n+                                                <div class=\"p-10\">\n                                                     <h6 class=\"uppercase \">\n                                                         <a class=\"hover:text-secondary font-bold text-primary\"\n                                                             href=\"<?php echo $child_url ?>\"><?php echo $child_title ?></a>\n                                                     </h6>\n"
+                },
+                {
+                    "date": 1645523150620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n                                                     $child_url = $child->url;\n                                                     $sub_children = $child->wpse_children;\n                                                 ?>\n \n-                                                <div class=\"p-10\">\n+                                                <div class=\"p-5\">\n                                                     <h6 class=\"uppercase \">\n                                                         <a class=\"hover:text-secondary font-bold text-primary\"\n                                                             href=\"<?php echo $child_url ?>\"><?php echo $child_title ?></a>\n                                                     </h6>\n"
                 }
             ],
             "date": 1643194225559,
