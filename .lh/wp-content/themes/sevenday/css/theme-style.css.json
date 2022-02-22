@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 81,
+            "activePatchIndex": 84,
             "patches": [
                 {
                     "date": 1643199342977,
@@ -332,6 +332,18 @@
                 {
                     "date": 1645176800303,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n #field_1_15{\n   @apply w-full md:w-[45%];\n }\n \n-#gform_fields_2  label{\n+.hero_form .gform_wrapper  label{\n   @apply hidden;\n }\n .gform_title{\n   display:block;\n"
+                },
+                {
+                    "date": 1645537975356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,9 +166,9 @@\n   display:block;\n }\n \n #gform_wrapper_2 #gform_submit_button_2{\n-  @apply w-full bg-primary hover:bg-white hover:text-primary border border-primary;\n+  @apply w-full bg-primary hover:bg-white hover:text-primary border border-primary uppercase;\n }\n \n .hero_form .gform_wrapper .gform_title {\n   @apply text-center text-white text-3xl pb-5 uppercase;\n"
+                },
+                {
+                    "date": 1645538170991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,4 +172,10 @@\n \n .hero_form .gform_wrapper .gform_title {\n   @apply text-center text-white text-3xl pb-5 uppercase;\n }\n+\n+::-webkit-input-placeholder { @apply uppercase }\n+:-moz-placeholder { @apply uppercase } /* Firefox 18- */\n+::-moz-placeholder { @apply uppercase } /* firefox 19+ */\n+:-ms-input-placeholder { @apply uppercase } /* ie */\n+input:-moz-placeholder { @apply uppercase}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645538180996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,4 @@\n .hero_form .gform_wrapper .gform_title {\n   @apply text-center text-white text-3xl pb-5 uppercase;\n }\n \n-::-webkit-input-placeholder { @apply uppercase }\n-:-moz-placeholder { @apply uppercase } /* Firefox 18- */\n-::-moz-placeholder { @apply uppercase } /* firefox 19+ */\n-:-ms-input-placeholder { @apply uppercase } /* ie */\n-input:-moz-placeholder { @apply uppercase}\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1643199342977,

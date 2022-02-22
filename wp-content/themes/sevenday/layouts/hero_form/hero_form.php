@@ -22,7 +22,7 @@
             </a>
             
         </div>
-        <div class="w-full lg:w-1/3 bg-[#3F3F3F] rounded-lg container m-auto p-10 hero_form">
+        <div class="w-full lg:w-1/3 bg-[#3F3F3F] rounded-lg container m-auto p-10 hero_form uppercase">
             <?php echo do_shortcode('[gravityform id="2" title="false" title="true" description="true"]') ?>
         </div>
     </div>

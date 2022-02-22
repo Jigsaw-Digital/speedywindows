@@ -167,9 +167,10 @@
 }
 
 #gform_wrapper_2 #gform_submit_button_2{
-  @apply w-full bg-primary hover:bg-white hover:text-primary border border-primary;
+  @apply w-full bg-primary hover:bg-white hover:text-primary border border-primary uppercase;
 }
 
 .hero_form .gform_wrapper .gform_title {
   @apply text-center text-white text-3xl pb-5 uppercase;
 }
+
