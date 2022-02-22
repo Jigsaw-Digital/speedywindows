@@ -195,14 +195,14 @@ function navToggle() {
                                     <div class="w-full bg-gray-200 py-8 ">
                                         <div class="ctr xl:max-w-screen-xl">
                                             <div
-                                                class="w-full flex justify-center ">
+                                                class="w-full flex justify-between ">
                                                 <?php foreach ($children as $child) { ?>
                                                 <?php $child_title = $child->title;
                                                     $child_url = $child->url;
                                                     $sub_children = $child->wpse_children;
                                                 ?>
 
-                                                <div class="w-[20%]">
+                                                <div class="w-[40%]">
                                                     <h6 class="uppercase">
                                                         <a class="hover:text-secondary font-bold text-primary"
                                                             href="<?php echo $child_url ?>"><?php echo $child_title ?></a>

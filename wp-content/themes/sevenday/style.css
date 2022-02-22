@@ -861,6 +861,9 @@ video {
 .w-1\/4 {
 	width: 25%;
 }
+.w-\[40\%\] {
+	width: 40%;
+}
 .min-w-\[280px\] {
 	min-width: 280px;
 }
@@ -1872,14 +1875,14 @@ video {
 		margin-bottom: 2.5rem;
 	}
 
-	.lg\:mx-10 {
-		margin-left: 2.5rem;
-		margin-right: 2.5rem;
-	}
-
 	.lg\:my-auto {
 		margin-top: auto;
 		margin-bottom: auto;
+	}
+
+	.lg\:mx-10 {
+		margin-left: 2.5rem;
+		margin-right: 2.5rem;
 	}
 
 	.lg\:mb-0 {
