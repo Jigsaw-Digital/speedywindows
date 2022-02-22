@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 181,
+            "activePatchIndex": 183,
             "patches": [
                 {
                     "date": 1643194225560,
@@ -732,6 +732,14 @@
                 {
                     "date": 1645535748043,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -320,11 +320,9 @@\n                                 <div id=\"mobile-nav-child-trigger\"\n                                     class=\"w-full text-right text-xl  cursor-pointer\"\n                                     onclick=\"handleSubNavItem(this, '<?php echo $title ?>')\">\n                                     <i\n-                                        class=\"transform transition-all ease-in duration-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n-  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 9l-7 7-7-7\" />\n-</svg></i>\n+                                        class=\"fas fa-chevron-down transform transition-all ease-in duration-200\"></i>\n                                 </div>\n                                 <?php } ?>\n                             </div>\n                             <?php if ($children) { ?>\n"
+                },
+                {
+                    "date": 1645543815228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     <link rel=\"icon\" href=\"./favicon.ico\" />\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n     <meta name=\"theme-color\" content=\"#000000\" />\n-    <title>Seven Day</title>\n+    <title>Speedywindows</title>\n     <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">\n     <link\n         href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap\"\n         rel=\"stylesheet\">\n"
+                },
+                {
+                    "date": 1645543830713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     <link rel=\"icon\" href=\"./favicon.ico\" />\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n     <meta name=\"theme-color\" content=\"#000000\" />\n-    <title>Speedywindows</title>\n+    <title>Speedy Windows</title>\n     <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">\n     <link\n         href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap\"\n         rel=\"stylesheet\">\n"
                 }
             ],
             "date": 1643194225559,

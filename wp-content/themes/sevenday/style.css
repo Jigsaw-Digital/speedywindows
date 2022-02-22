@@ -2151,11 +2151,6 @@ video {
 		padding-right: 6rem;
 	}
 
-	.xl\:py-40 {
-		padding-top: 10rem;
-		padding-bottom: 10rem;
-	}
-
 	.xl\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -2190,4 +2185,3 @@ video {
 		padding-right: 8rem;
 	}
 }
-

@@ -16,10 +16,19 @@
             <div class=" text-3xl lg:text-5xl "><?php echo $title?></div>
             <div class="text-xl lg:text-2xl mb-4"><?php echo $sub_text?></div>
             <div class="text-sm lg:text-base w-full my-4"><?php echo $paragraph?></div>
-            <a href="<?php echo $link['url'] ?>"
-                class="uppercase mr-1 py-2 px-2 w-full lg:w-1/3 text-center border border-primary bg-primary text-white hover:bg-white  hover:text-primary ">
-                <?php echo $link['title'] ?>
-            </a>
+
+            <?php 
+
+                $link = get_sub_field('link');
+               
+
+                if( !empty($link) ): ?>
+                <a href="<?php echo $link['url'] ?>"
+                    class="uppercase mr-1 py-2 px-2 w-full lg:w-1/3 text-center border border-primary bg-primary text-white hover:bg-white  hover:text-primary ">
+                    <?php echo $link['title'] ?>
+                </a>
+            <?php endif; ?>
+            
             
         </div>
         <div class="w-full lg:w-1/3 bg-[#3F3F3F] rounded-lg container m-auto p-10 hero_form uppercase">
