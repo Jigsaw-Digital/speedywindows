@@ -202,7 +202,7 @@ function navToggle() {
                                                     $sub_children = $child->wpse_children;
                                                 ?>
 
-                                                <div class="mx-2">
+                                                <div class="mx-auto">
                                                     <h6 class="uppercase ">
                                                         <a class="hover:text-secondary font-bold text-primary"
                                                             href="<?php echo $child_url ?>"><?php echo $child_title ?></a>
